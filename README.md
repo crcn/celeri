@@ -23,38 +23,38 @@ Command Line Interface for Node.js
 
 ```javascript
 
-	var celery = require('celery');
+var celery = require('celery');
 
 
-	celery.on('hello :name', function(data)
-	{
-		console.log('Hello ' + data.name +'!');
-	});
+celery.on('hello :name', function(data)
+{
+	console.log('Hello ' + data.name +'!');
+});
 
-	celery.on('set address :city :state :zip', function(data)
-	{
-		console.log("City: %s, State: %s, Zip: %s ", data.city, data.state, data.zip);
-	});
+celery.on('set address :city :state :zip', function(data)
+{
+	console.log("City: %s, State: %s, Zip: %s ", data.city, data.state, data.zip);
+});
 
 
-	celery.open();
+celery.open();
 
-	celery.parse(process.argv);
+celery.parse(process.argv);
+
 ```
 
 ### Progress Bar:
 
 ```javascript
 
+var i = 0;
 
-	var i = 0;
-
-	var interval = setInterval(function()
-	{
-		celery.progress('Label: ', i++);
-		
-		if(i == 100) clearInterval(i);
-	}, 10);
+var interval = setInterval(function()
+{
+	celery.progress('Label: ', i++);
+	
+	if(i == 100) clearInterval(i);
+}, 10);
 
 ```
 
@@ -62,52 +62,55 @@ Command Line Interface for Node.js
 
 ```javascript
 
-	var spinner = celery.loading('Processing: ');
+var spinner = celery.loading('Processing: ');
 
-	setTimeout(function()
-	{
-		spinner.done(true);//undefined = done, true = success, false = fail
-	}, 1000);
+setTimeout(function()
+{
+	spinner.done(true);//undefined = done, true = success, false = fail
+}, 1000);
+
 ````
 
 ### Prompt:
 
 ```javascript
 
-	celery.prompt('Username: ', function(input)
-	{
-		
-	});
+celery.prompt('Username: ', function(input)
+{
+	
+});
+
 ````
 
 ### Confirmation:
 
 ```javascript
 
-	celery.confirm("Do you want to continue?", function(yes)
+celery.confirm("Do you want to continue?", function(yes)
+{
+	if(yes)
 	{
-		if(yes)
-		{
-			//continue
-		}
-	});
+		//continue
+	}
+});
+
 ```
 
 ### Password:
 
 ```javascript
 	
-	//mask = *
-	celery.password('Password: ', '*', function(input)
-	{
-		//password
-	});
+//mask = *
+celery.password('Password: ', '*', function(input)
+{
+	//password
+});
 
-	//no mask
-	celery.password('Password: ', function(input)
-	{
-		//password
-	});
+//no mask
+celery.password('Password: ', function(input)
+{
+	//password
+});
 
 
 ```
