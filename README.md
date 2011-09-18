@@ -1,6 +1,6 @@
 CLI utility for [garden](https://github.com/spiceapps/garden)
 
-![Alt command line](images/screen.png)
+![Alt command line](http://i.imgur.com/DA77U.png)
 
 ### Usage:
 
