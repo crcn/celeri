@@ -10,6 +10,7 @@ Command Line Interface for Node.js
 - Loading/busy spinner
 - Password input
 - confirmation 
+- prompt
 
 ### To Do:
 

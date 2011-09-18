@@ -1,6 +1,6 @@
 var celery = require('../lib');
 
-celery.input('Username: ', function(user)
+celery.prompt('Username: ', function(user)
 {
     celery.password('Password: ', function(pass)
     {
