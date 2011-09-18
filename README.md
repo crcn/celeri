@@ -20,13 +20,13 @@ CLI utility for [garden](https://github.com/spiceapps/garden)
 
 terminal:
 
-	node ./cli-app hello:craig⏎
+	node ./cli-app hello:craig ↩
 	hello craig!
 or:
 
 	node ./cli-app
 
-	hello craig ⏎
+	hello craig ↩
 	hello craig!
 
 
