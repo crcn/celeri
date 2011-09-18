@@ -2,13 +2,18 @@ Command Line Interface for Node.js
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
 
-Features:
+### Features:
 
 - history (up/down arrows)
 - Colored input
 - Progress Bar
+- Loading/busy spinner
 - Password input
 - confirmation 
+
+### To Do:
+
+- help menu
 
 ### Usage:
 
