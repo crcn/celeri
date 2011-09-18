@@ -1,0 +1,20 @@
+{
+    "name": "celery",
+    "description": "CLI lib",
+    "version": "0.0.1",
+    "author": "Craig Condon",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spiceapps/celery.git"
+    },
+    "bin": {
+        "guava": "./bin/server"
+    },
+    "directories" :   { "lib" : "./lib" },
+    "dependencies": {
+        "structr":"*",
+        "beanpole":"*"
+    },
+    
+    "main": "./lib/index.js"
+}
