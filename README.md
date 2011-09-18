@@ -96,7 +96,7 @@ celery.confirm("Do you want to continue?", function(yes)
 
 ```
 
-### .password(label[, mask],callback)
+### .password(label[, mask], callback)
 
 ```javascript
 	
