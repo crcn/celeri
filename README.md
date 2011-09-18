@@ -51,7 +51,7 @@ Command Line Interface for Node.js
 
 	var interval = setInterval(function()
 	{
-		celery.progress('Label: ', i);
+		celery.progress('Label: ', i++);
 		
 		if(i == 100) clearInterval(i);
 	}, 10);
@@ -118,7 +118,7 @@ capistrano / jake style parsing:
 
 	node ./cli-app hello:craig ↩
 	hello craig!
-	
+
 or:
 
 	node ./cli-app
