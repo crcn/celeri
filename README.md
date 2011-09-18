@@ -12,9 +12,6 @@ RESTful Command Line Interface for node.js
 - confirmation 
 - prompt
 
-### To Do:
-
-- help menu
 
 ## Usage:
 
@@ -121,6 +118,17 @@ celery.password('Password: ', function(input)
 celery.auth(function(user, pass)
 {
 	//auth here
+});
+
+```
+
+### .loadHelp(filePath)
+
+```javascript
+
+celery.on('help', function()
+{
+	celery.loadHelp(__dirname +'/help.txt');
 });
 
 ```
