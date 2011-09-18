@@ -56,6 +56,7 @@ Command Line Interface for Node.js
 		if(i == 100) clearInterval(i);
 	}, 10);
 
+```
 
 ### Spinner:
 
