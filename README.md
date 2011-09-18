@@ -113,6 +113,17 @@ celery.password('Password: ', function(input)
 });
 
 
+### .auth(callback)
+
+```javascript
+
+celery.auth(callback(user, pass)
+{
+	//auth here
+});
+
+```
+
 ```
 
 ### Terminal
