@@ -43,7 +43,7 @@ celery.parse(process.argv);
 
 ```
 
-### Progress Bar:
+### .progress(label, percent)
 
 ```javascript
 
@@ -58,7 +58,7 @@ var interval = setInterval(function()
 
 ```
 
-### Spinner:
+### .loading(label)
 
 ```javascript
 
@@ -71,7 +71,7 @@ setTimeout(function()
 
 ````
 
-### Prompt:
+### .prompt(label, callback)
 
 ```javascript
 
@@ -82,7 +82,7 @@ celery.prompt('Username: ', function(input)
 
 ````
 
-### Confirmation:
+### .confirm(message, callback)
 
 ```javascript
 
@@ -96,7 +96,7 @@ celery.confirm("Do you want to continue?", function(yes)
 
 ```
 
-### Password:
+### .password(label[, mask],callback)
 
 ```javascript
 	
@@ -115,7 +115,7 @@ celery.password('Password: ', function(input)
 
 ```
 
-### Terminal:
+### Terminal
 
 capistrano / jake style parsing:
 
