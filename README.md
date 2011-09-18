@@ -1,4 +1,4 @@
-RESTful Command Line Interface for node.js
+Command Line Interface with a restful feel
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
 
