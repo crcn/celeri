@@ -114,8 +114,11 @@ Command Line Interface for Node.js
 
 ### Terminal:
 
+capistrano / jake style parsing:
+
 	node ./cli-app hello:craig ↩
 	hello craig!
+	
 or:
 
 	node ./cli-app
