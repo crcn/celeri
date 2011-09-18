@@ -118,7 +118,7 @@ celery.password('Password: ', function(input)
 
 ```javascript
 
-celery.auth(callback(user, pass)
+celery.auth(function(user, pass)
 {
 	//auth here
 });
