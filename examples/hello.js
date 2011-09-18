@@ -1,4 +1,4 @@
-var celery = require('../');
+var celery = require('../lib');
 
 celery.on('hello :name', function(data)
 {
@@ -27,13 +27,21 @@ celery.on('download :file', function(data)
 });
 
 
-celery.on('timeout :ttl', function(data)
+celery.on(['timeout :ttl','timeout :ttl :status'], function(data)
 {
     var loader = celery.loading('timeout for '+data.ttl+' seconds: ');
     
     setTimeout(function()
     {
-        loader.done();
+        if(data.status != undefined)
+        {
+            loader.done(data.status == 'success');
+        }
+        else
+        {
+            loader.done();
+        }
+        
     }, Number(data.ttl) * 1000);
 });
 

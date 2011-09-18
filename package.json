@@ -13,7 +13,8 @@
     "directories" :   { "lib" : "./lib" },
     "dependencies": {
         "structr":"*",
-        "beanpole":"*"
+        "beanpole":"*",
+        "colors":"*"
     },
     
     "main": "./lib/index.js"
