@@ -7,9 +7,6 @@
         "type": "git",
         "url": "http://github.com/spiceapps/celery.git"
     },
-    "bin": {
-        "guava": "./bin/server"
-    },
     "directories" :   { "lib" : "./lib" },
     "dependencies": {
         "structr":"*",

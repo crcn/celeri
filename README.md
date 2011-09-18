@@ -1,4 +1,4 @@
-Command Line Interface for Node.js 
+RESTful Command Line Interface for node.js
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
 
