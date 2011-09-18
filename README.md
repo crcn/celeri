@@ -1,6 +1,14 @@
-CLI utility for [garden](https://github.com/spiceapps/garden)
+Command Line Interface for Node.js 
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
+
+Features:
+
+- history (up/down arrows)
+- Colored input
+- Progress Bar
+- Password input
+- confirmation 
 
 ### Usage:
 
@@ -13,6 +21,7 @@ CLI utility for [garden](https://github.com/spiceapps/garden)
 	{
 		console.log('Hello ' + data.name +'!');
 	});
+
 
 	celery.open();
 
