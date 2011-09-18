@@ -112,6 +112,7 @@ celery.password('Password: ', function(input)
 	//password
 });
 
+```
 
 ### .auth(callback)
 
@@ -124,7 +125,6 @@ celery.auth(callback(user, pass)
 
 ```
 
-```
 
 ### Terminal
 
