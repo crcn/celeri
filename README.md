@@ -14,7 +14,6 @@ Command Line Interface with a restful feel
 
 ### Road map:
 
-- Table view
 - Title View 
 - help menu api
 - Input? >
@@ -137,6 +136,41 @@ celery.on('help', function()
 {
 	celery.loadHelp(__dirname +'/help.txt');
 });
+
+```
+
+
+### .table(objects, ops)
+
+```javascript
+
+var objects = [
+    
+    {
+        name: 'Craig',
+        age: 21,
+        interests: 'Cooking, espresso, backpacking, coding'
+    },
+    
+    
+    {
+        name: 'Tim',
+        age: 21,
+        interests: 'Design, Traveling, Photography'
+        
+    }
+
+];
+
+celery.drawTable(objects, {
+    columns: { 
+        name: 15, 
+        age: 20, 
+        interests: 15
+    }
+    
+});
+
 
 ```
 
