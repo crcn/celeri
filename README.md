@@ -12,6 +12,13 @@ Command Line Interface with a restful feel
 - confirmation 
 - prompt
 
+### Road map:
+
+- Table view
+- Title View 
+- help menu api
+- Input? >
+- Error handling (display of command not found)
 
 ## Usage:
 
