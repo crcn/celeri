@@ -164,12 +164,7 @@ var objects = [
 ];
 
 celery.drawTable(objects, {
-    columns: { 
-        name: 15, 
-        age: 20, 
-        interests: 15
-    }
-    
+    columns: ['name','age','interests']
 });
 
 
