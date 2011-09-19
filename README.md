@@ -14,7 +14,8 @@ Command Line Interface with a restful feel
 
 ### Road map:
 
-- Title View 
+- Title View
+- Tree View
 - help menu api
 - Input? >
 - Error handling (display of command not found)
