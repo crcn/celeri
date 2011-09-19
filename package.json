@@ -11,7 +11,8 @@
     "dependencies": {
         "structr":"*",
         "beanpole":"*",
-        "colors":"*"
+        "colors":"*",
+        "ncurses":"*"
     },
     
     "main": "./lib/index.js"
