@@ -175,6 +175,11 @@ celery.drawTable(objects, {
 
 ```
 
+Gives you something like:
+
+
+![Alt command line](http://i.imgur.com/oUtC9.png)
+
 
 ### Terminal
 

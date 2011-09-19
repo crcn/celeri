@@ -13,7 +13,18 @@ var objects = [
         name: 'Tim',
         age: 21,
         interests: 'Design, Traveling, Photography'
-        
+    },
+    
+    {
+        name: 'Michael',
+        age: 23,
+        interests: 'Food'
+    },
+    
+    {
+        name: 'Sarah',
+        age: 19,
+        interests: '???'
     }
 
 ];
