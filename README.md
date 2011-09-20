@@ -6,17 +6,16 @@
 ### Features:
 
 - history (up/down arrows)
-- Colored input
 - Progress Bar
 - Loading/busy spinner
 - Password input
-- confirmation 
-- prompt
-- multi-line tables
+- Confirmation 
+- Prompt
+- Multi-line tables
 - Build flexible commands via [beanpole](https://github.com/spiceapps/beanpole)
     - OR statement 
-    - middleware
-    - parameters
+    - Middleware
+    - Parameters
 
 ### To Do:
 
