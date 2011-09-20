@@ -5,7 +5,7 @@
 
 ### Features:
 
-- history (up/down arrows)
+- History (up/down arrows)
 - Progress Bar
 - Loading/busy spinner
 - Password input
