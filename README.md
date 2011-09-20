@@ -35,7 +35,7 @@
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
-Example of using the "OR" statement:
+"OR" statement:
 
 ```javascript
 
@@ -59,7 +59,7 @@ celery.parse(process.argv);
 
 ```
 
-Example of using the Middleware "->" statement:
+Middleware "->" statement:
 
 
 ```javascript
@@ -81,6 +81,7 @@ celery.on('delay 1 -> say hello :name', function(data)
 });
 
 ```
+
 
 
 ### .progress(label, percent)
