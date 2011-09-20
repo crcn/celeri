@@ -14,7 +14,10 @@
 - prompt
 - multi-line tables
 - REST-like arguments
-- middleware
+- Build flexible commands via [beanpole](https://github.com/spiceapps/beanpole)
+    - OR statement 
+    - middleware
+    - parameters
 
 ### Road map:
 
@@ -26,27 +29,52 @@
 ## Usage:
 
 
-### Parameters:
+### on(event, callback):
+
+Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
+
+Example of using the "OR" statement:
 
 ```javascript
 
 var celery = require('celery');
 
 
-celery.on('hello :name', function(data)
+celery.on('hello :name OR hi :name', function(data)
 {
 	console.log('Hello ' + data.name +'!');
 });
 
-celery.on('set address :city :state :zip', function(data)
+celery.on('set address :zip OR set address :city :state :zip', function(data)
 {
-	console.log("City: %s, State: %s, Zip: %s ", data.city, data.state, data.zip);
+	console.log("City: %s, State: %s, Zip: %s ", data.city || 'None provided', data.state || 'None provided', data.zip);
 });
 
 
 celery.open();
 
 celery.parse(process.argv);
+
+```
+
+Example of using the Middleware "->" statement:
+
+
+```javascript
+
+celery.on('delay/:seconds', function(self)
+{
+    setTimeout(function(self)
+    {
+        if(!self.next()) console.log("done!");
+    }, Number(data.seconds) * 1000, this);
+});
+
+
+celery.on('delay/1 -> say hello :name', function(data)
+{
+   console.log('hello %s!', data.name); 
+});
 
 ```
 
