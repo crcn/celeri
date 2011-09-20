@@ -263,7 +263,7 @@ celeri.on('login OR login :user :pass', function(data)
     var self = this;
     
 
-    //called auth credentials have been entered in
+    //called after auth credentials have been entered in
     function onAuth(creds)
     {
 
@@ -274,7 +274,7 @@ celeri.on('login OR login :user :pass', function(data)
         }
         
         //otherwise, add the user to the CURRENT request so it can be passed
-        //onto the next router listener
+        //onto the next route listener
         self.user = creds.user;
         
         //cache the credentials so the user doesn't have to login each time
