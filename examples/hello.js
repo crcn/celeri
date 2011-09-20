@@ -1,11 +1,14 @@
 var celery = require('../lib');
 
+celery.open({  
+    prefix: 'hello > '
+});
 celery.on('hello :name', function(data)
 {
     console.log('hello %s, how are you doing?', data.name);
 });
 
-celery.on('download :file', function(data)
+celery.on('download/:file', function(data)
 {
     console.log("starting");
     
@@ -45,7 +48,5 @@ celery.on(['timeout :ttl','timeout :ttl :status'], function(data)
     }, Number(data.ttl) * 1000);
 });
 
-celery.open({  
-    prefix: 'hello > '
-});
+
 celery.parse(process.argv);
