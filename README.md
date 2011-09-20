@@ -34,7 +34,7 @@
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
-Hello World: 
+#### Hello World: 
 
 ```javascript
 
@@ -58,7 +58,7 @@ In terminal:
     > hello world ↩
     hello world!
 
-"OR" statement:
+#### "OR" statement:
 
 ```javascript
 
@@ -75,7 +75,7 @@ celeri.on('set address :zip OR set address :city :state :zip', function(data)
 
 ```
 
-Middleware "->" statement:
+#### Middleware "->" statement:
 
 
 ```javascript
