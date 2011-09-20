@@ -23,6 +23,8 @@
 - Title View
 - Tree View
 - help menu api
+- Optional colored input
+- Custom colors for each view: exports.colors = {}
 - Error handling (display of command not found)
 - Add transports instead of depending on native stdin/stdout
     - Ability to use online
