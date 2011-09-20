@@ -16,7 +16,6 @@
 - Title View
 - Tree View
 - help menu api
-- Input? >
 - Error handling (display of command not found)
 
 ## Usage:
@@ -45,6 +44,7 @@ celery.open();
 celery.parse(process.argv);
 
 ```
+
 
 ### .progress(label, percent)
 
