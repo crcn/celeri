@@ -11,8 +11,7 @@ Command Line Interface with a restful feel
 - Password input
 - confirmation 
 - prompt
-- tables
-	- supports multiple lines
+- multi-line tables
 
 ### Road map:
 
