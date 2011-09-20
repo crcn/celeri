@@ -25,7 +25,7 @@
 - Tree View
 - help menu api
 - Error handling (display of command not found)
-- Add transports instead of depending on terminal
+- Add transports instead of depending on native stdout
     - Ability to use online
 
 ## Usage:
@@ -67,7 +67,7 @@ Example of using the Middleware "->" statement:
 celery.on('delay :seconds', function(data)
 {
     console.log("delaying for %s seconds", data.seconds);
-    
+
     setTimeout(function(self)
     {
         if(!self.next()) console.log("done!");
