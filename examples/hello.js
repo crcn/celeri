@@ -45,5 +45,7 @@ celery.on(['timeout :ttl','timeout :ttl :status'], function(data)
     }, Number(data.ttl) * 1000);
 });
 
-celery.open();
+celery.open({  
+    prefix: 'hello > '
+});
 celery.parse(process.argv);
