@@ -24,7 +24,7 @@
 - Tree View
 - help menu api
 - Error handling (display of command not found)
-- Add transports instead of depending on native stdout
+- Add transports instead of depending on native stdin/stdout
     - Ability to use online
 
 ## Usage:
