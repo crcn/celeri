@@ -82,6 +82,15 @@ celery.on('delay 1 -> say hello :name', function(data)
 
 ```
 
+here's what you get:
+
+    > delay 5 ↩
+    delaying for 5 seconds
+    done
+    > say hello craig ↩
+    delaying for 1 seconds
+    hello craig!
+    
 
 
 ### .progress(label, percent)
