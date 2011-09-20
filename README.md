@@ -241,20 +241,29 @@ var credentials;
  
 celery.on('login OR login :user :pass', function(data)
 {
+    
+    //reference to the current request
     var self = this;
     
+
+    //called auth credentials have been entered in
     function onAuth(creds)
     {
+
+        //credits wrong? DO NOT CONTINUE
         if(creds.user != 'user' || creds.pass != 'pass')
         {
             return console.log("Incorrect user / pass".red);
         }
         
+        //otherwise, add the user to the CURRENT request so it can be passed
+        //onto the next router listener
         self.user = creds.user;
         
         //cache the credentials so the user doesn't have to login each time
         credentials = creds;
         
+        //not another listener? display a success response
         if(!self.next()) console.log("Logged in as %s", creds.user.green);
     }
     
@@ -285,7 +294,7 @@ celery.on('login OR login :user :pass', function(data)
 
 
 /**
- * private account into
+ * This stuff's private. The user has to be authenticated *before* this command is executed
  */
  
 celery.on('login -> account', function()
