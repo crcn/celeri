@@ -11,6 +11,8 @@ Command Line Interface with a restful feel
 - Password input
 - confirmation 
 - prompt
+- tables
+	- supports multiple lines
 
 ### Road map:
 
@@ -174,6 +176,12 @@ Gives you something like:
 
 
 ![Alt command line](http://i.imgur.com/oUtC9.png)
+
+
+Here's a multi-line table:
+
+
+![Alt command line](http://i.imgur.com/O5o47.png)
 
 
 ### Terminal
