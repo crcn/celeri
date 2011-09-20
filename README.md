@@ -13,7 +13,6 @@
 - confirmation 
 - prompt
 - multi-line tables
-- REST-like arguments
 - Build flexible commands via [beanpole](https://github.com/spiceapps/beanpole)
     - OR statement 
     - middleware
