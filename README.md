@@ -14,6 +14,7 @@
 - prompt
 - multi-line tables
 - REST-like arguments
+- middleware
 
 ### Road map:
 
@@ -192,18 +193,12 @@ Here's a multi-line table:
 
 var celery = require('../lib');
 
-celery.open({  
-
-    //required for middleware / or statements
-    delimiter: '/',
-});
-
 
 var credentials;
 
 
  
-celery.on('login or login/:user/:pass', function(data)
+celery.on('login OR login :user :pass', function(data)
 {
     var self = this;
     
@@ -256,6 +251,9 @@ celery.on('login -> account', function()
 {
     console.log('Here\'s your account info %s!', this.user.green);
 });
+
+celery.open();
+
 
 
 celery.parse(process.argv);

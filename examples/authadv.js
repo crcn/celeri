@@ -3,7 +3,7 @@ var celery = require('../lib');
 celery.open({  
 
     //required for middleware / or statements
-    delimiter: '/',
+    //delimiter: '/',
 });
 
 
@@ -11,7 +11,7 @@ var credentials;
 
 
  
-celery.on('login or login/:user/:pass', function(data)
+celery.on('login OR login :user :pass', function(data)
 {
     var self = this;
     
