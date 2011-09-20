@@ -30,7 +30,7 @@
 ## Usage:
 
 
-### on(event, callback):
+### .on(event, callback)
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
