@@ -55,7 +55,13 @@ celeri.parse(process.argv);
 
 In terminal:
     
+    node ./hello ↩
     > hello world ↩
+    hello world!
+
+passed as arguments:
+
+    node ./hello hello:world ↩
     hello world!
 
 #### "OR" statement:
@@ -331,20 +337,5 @@ celeri.parse(process.argv);
 Here's what you get:
 
 ![Alt command line](http://i.imgur.com/g7ywq.png)
-
-
-### Terminal
-
-capistrano / jake style parsing:
-
-	node ./cli-app hello:craig ↩
-	hello craig!
-
-or:
-
-	node ./cli-app
-
-	hello craig ↩
-	hello craig!
 
 
