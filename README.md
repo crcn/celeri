@@ -21,7 +21,7 @@
 
 - Title View
 - Tree View
-- help menu api
+- Help menu api
 - Optional colored input
 - Custom colors for each view: exports.colors = {}
 - Error handling (display of command not found)
