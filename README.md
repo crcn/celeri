@@ -19,9 +19,9 @@
 
 ### To Do:
 
+- Help menu api
 - Title View
 - Tree View
-- Help menu api
 - Optional colored input
 - Custom colors for each view: exports.colors = {}
 - Error handling (display of command not found)
@@ -35,27 +35,44 @@
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
+Hello World: 
+
+```javascript
+
+var celeri = require('celeri');
+
+celeri.on('hello :name', function(data)
+{
+   console.log("Hello %s!", data.name); 
+});
+
+//open up character input!
+celeri.open();
+
+//parse the command line args
+celeri.parse(process.argv);
+
+```
+
+In terminal:
+    
+    > hello world ↩
+    hello world!
+
 "OR" statement:
 
 ```javascript
 
-var celery = require('celery');
 
-
-celery.on('hello :name OR hi :name', function(data)
+celeri.on('hello :name OR hi :name', function(data)
 {
 	console.log('Hello ' + data.name +'!');
 });
 
-celery.on('set address :zip OR set address :city :state :zip', function(data)
+celeri.on('set address :zip OR set address :city :state :zip', function(data)
 {
 	console.log("City: %s, State: %s, Zip: %s ", data.city || 'None provided', data.state || 'None provided', data.zip);
 });
-
-
-celery.open();
-
-celery.parse(process.argv);
 
 ```
 
@@ -64,7 +81,7 @@ Middleware "->" statement:
 
 ```javascript
 
-celery.on('delay :seconds', function(data)
+celeri.on('delay :seconds', function(data)
 {
     console.log("delaying for %s seconds", data.seconds);
 
@@ -75,7 +92,7 @@ celery.on('delay :seconds', function(data)
 });
 
 
-celery.on('delay 1 -> say hello :name', function(data)
+celeri.on('delay 1 -> say hello :name', function(data)
 {
    console.log('hello %s!', data.name); 
 });
@@ -101,7 +118,7 @@ var i = 0;
 
 var interval = setInterval(function()
 {
-	celery.progress('Label: ', i++);
+	celeri.progress('Label: ', i++);
 	
 	if(i == 100) clearInterval(i);
 }, 10);
@@ -112,7 +129,7 @@ var interval = setInterval(function()
 
 ```javascript
 
-var spinner = celery.loading('Processing: ');
+var spinner = celeri.loading('Processing: ');
 
 setTimeout(function()
 {
@@ -125,7 +142,7 @@ setTimeout(function()
 
 ```javascript
 
-celery.prompt('Username: ', function(input)
+celeri.prompt('Username: ', function(input)
 {
 	
 });
@@ -136,7 +153,7 @@ celery.prompt('Username: ', function(input)
 
 ```javascript
 
-celery.confirm("Do you want to continue?", function(yes)
+celeri.confirm("Do you want to continue?", function(yes)
 {
 	if(yes)
 	{
@@ -151,13 +168,13 @@ celery.confirm("Do you want to continue?", function(yes)
 ```javascript
 	
 //mask = *
-celery.password('Password: ', '*', function(input)
+celeri.password('Password: ', '*', function(input)
 {
 	//password
 });
 
 //no mask
-celery.password('Password: ', function(input)
+celeri.password('Password: ', function(input)
 {
 	//password
 });
@@ -168,7 +185,7 @@ celery.password('Password: ', function(input)
 
 ```javascript
 
-celery.auth(function(user, pass)
+celeri.auth(function(user, pass)
 {
 	//auth here
 });
@@ -179,9 +196,9 @@ celery.auth(function(user, pass)
 
 ```javascript
 
-celery.on('help', function()
+celeri.on('help', function()
 {
-	celery.loadHelp(__dirname +'/help.txt');
+	celeri.loadHelp(__dirname +'/help.txt');
 });
 
 ```
@@ -209,7 +226,7 @@ var objects = [
 
 ];
 
-celery.drawTable(objects, {
+celeri.drawTable(objects, {
     columns: ['name','age','interests']
 });
 
@@ -233,14 +250,14 @@ Here's a multi-line table:
 
 ```javascript
 
-var celery = require('../lib');
+var celeri = require('../lib');
 
 
 var credentials;
 
 
  
-celery.on('login OR login :user :pass', function(data)
+celeri.on('login OR login :user :pass', function(data)
 {
     
     //reference to the current request
@@ -285,7 +302,7 @@ celery.on('login OR login :user :pass', function(data)
     //or prompt for authentication
     else
     {
-        celery.auth(function(user, pass)
+        celeri.auth(function(user, pass)
         {
             onAuth({ user: user, pass: pass });
         });
@@ -298,16 +315,16 @@ celery.on('login OR login :user :pass', function(data)
  * This stuff's private. The user has to be authenticated *before* this command is executed
  */
  
-celery.on('login -> account', function()
+celeri.on('login -> account', function()
 {
     console.log('Here\'s your account info %s!', this.user.green);
 });
 
-celery.open();
+celeri.open();
 
 
 
-celery.parse(process.argv);
+celeri.parse(process.argv);
 
 
 ```
