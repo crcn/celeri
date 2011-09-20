@@ -13,6 +13,7 @@
 - confirmation 
 - prompt
 - multi-line tables
+- REST-like arguments
 
 ### Road map:
 
