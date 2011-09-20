@@ -62,7 +62,7 @@ Example of using the Middleware "->" statement:
 
 ```javascript
 
-celery.on('delay/:seconds', function(self)
+celery.on('delay :seconds', function(self)
 {
     setTimeout(function(self)
     {
@@ -71,7 +71,7 @@ celery.on('delay/:seconds', function(self)
 });
 
 
-celery.on('delay/1 -> say hello :name', function(data)
+celery.on('delay 1 -> say hello :name', function(data)
 {
    console.log('hello %s!', data.name); 
 });
