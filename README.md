@@ -22,12 +22,7 @@
 - Help menu api
 - Title View
 - Tree View
-- Custom colors for each view: exports.colors = {}
-    - input
-    - loader
-    - progress
-    - table
-    - ???
+- Custom colors for each view (input, loader, progress, table, etc.): exports.colors = {}
 - Error handling (display of command not found)
 - Add transports instead of depending on native stdin/stdout
     - Ability to use online
