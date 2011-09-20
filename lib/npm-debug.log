@@ -1,0 +1,23 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+info using npm@1.0.27
+info using node@v0.4.11
+verbose config file /Users/craigcondon/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose publish [ '.' ]
+verbose cache add [ '.', null ]
+silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
+verbose parsed url { pathname: '.', href: '.' }
+ERR! Could not install: .
+ERR! Error: ENOENT, No such file or directory 'package.json'
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "publish"
+ERR! cwd /Users/craigcondon/Developer/Jobs/Spice/spice.io/libs/node/celeri/lib
+ERR! node -v v0.4.11
+ERR! npm -v 1.0.27
+verbose exit [ 2, true ]
