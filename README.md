@@ -209,7 +209,7 @@ celeri.on('help', function()
 ```
 
 
-### .table(objects, ops)
+### .drawTable(objects, ops)
 
 ```javascript
 
@@ -236,7 +236,8 @@ celeri.drawTable(objects, {
 });
 
 
-```
+``` 
+
 
 Gives you something like:
 
@@ -247,7 +248,22 @@ Gives you something like:
 Here's a multi-line table:
 
 
-![Alt command line](http://i.imgur.com/O5o47.png)
+![Alt command line](http://i.imgur.com/O5o47.png)    
+
+### .drawTree(tree)   
+
+Draws a tree
+
+````javascript
+                        
+//print out the contents of the celeri object
+celeri.drawTree(celeri);    
+
+````
+
+Here's another example:
+
+![Alt command line](http://i.imgur.com/4F0e0.png)
 
 
 ### Let's kick it up a notch
