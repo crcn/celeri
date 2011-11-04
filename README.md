@@ -15,13 +15,13 @@
 - Build flexible commands via [beanpole](https://github.com/spiceapps/beanpole)
     - OR statement 
     - Middleware
-    - Parameters
+    - Parameters  
+- Trees
 
 ### To Do:
 
 - Help menu api
-- Title View
-- Tree View
+- Title View   
 - Custom colors for each view (input, loader, progress, table, etc.): exports.colors = {}
 - Error handling (display of command not found)
 - Add transports instead of depending on native stdin/stdout
