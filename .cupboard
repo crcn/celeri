@@ -1,7 +1,8 @@
 [project]
 name = celeri
 [commands]
-publish = npm publish --force, git add ., git commit -m "$@", git push origin master
+publish = npm publish --force, git add -A, git commit -m "$@", git push origin master
 rm = git rm -r $@
 ignore = echo $@ >> .gitignore
+link = npm link $@
  = true
