@@ -5,4 +5,4 @@ publish = npm publish --force, git add -A, git commit -m "$@", git push origin m
 rm = git rm -r $@
 ignore = echo $@ >> .gitignore
 link = npm link $@
- = true
+github=https://github.com/spiceapps/celeri
