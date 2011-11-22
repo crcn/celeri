@@ -1,2 +1,2 @@
 [commands]
-proj = open project.tmproj
+proj = subl --project project.sublime-project
