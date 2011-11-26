@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/celeri"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","celeri"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","celeri"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","celeri"]
 		}
 	]
 }
