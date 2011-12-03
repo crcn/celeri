@@ -12,7 +12,9 @@
         "structr":"0.0.10",
         "colors":"0.5.1",
         "haba":"0.0.2",
-        "tq":"<=0.1.0"
+        "tq":"<=0.1.0",
+        "crema":"0.0.1",
+        "beanpole":"*"
     },
     
     "main": "./lib/index.js"
