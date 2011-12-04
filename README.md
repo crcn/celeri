@@ -17,7 +17,7 @@
     - Middleware
     - Parameters  
 - Trees
-- *Exposing Javascript*, and calling it from the command line
+- *Exposing Javascript*, and calling it from the command line - inspired by mongo's CLI utilitiy
 
 ### To Do:
 

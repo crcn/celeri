@@ -14,7 +14,7 @@
         "haba":"0.0.2",
         "tq":"<=0.1.0",
         "crema":"0.0.1",
-        "beanpole":"*"
+        "beanpole":"0.1.16"
     },
     
     "main": "./lib/index.js"

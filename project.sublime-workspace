@@ -16,6 +16,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin EAGME9.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/tmp/subl stdin NdGy42.txt",
 			"settings":
 			{
@@ -163,7 +171,7 @@
 			"file": "lib/plugins/table.js",
 			"settings":
 			{
-				"buffer_size": 6232,
+				"buffer_size": 6330,
 				"line_ending": "Unix"
 			}
 		},
@@ -321,7 +329,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 20,
 			"sheets":
 			[
 				{
@@ -354,7 +362,7 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/tmp/subl stdin NdGy42.txt",
+					"file": "/tmp/subl stdin EAGME9.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -380,6 +388,32 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/tmp/subl stdin NdGy42.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "lib/plugins/backspace.js",
 					"settings":
 					{
@@ -407,7 +441,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -435,7 +469,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -463,7 +497,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "/tmp/subl stdin B1otjc.txt",
 					"settings":
 					{
@@ -489,7 +523,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "lib/plugins/api.js",
 					"settings":
 					{
@@ -515,7 +549,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
@@ -542,7 +576,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "examples/api.js",
 					"settings":
 					{
@@ -568,7 +602,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "lib/plugins/exec.js",
 					"settings":
 					{
@@ -596,7 +630,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/tmp/subl stdin XiqGfi.txt",
 					"settings":
 					{
@@ -622,7 +656,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "lib/plugins/history.js",
 					"settings":
 					{
@@ -650,7 +684,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "lib/plugins/loading.js",
 					"settings":
 					{
@@ -678,7 +712,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "lib/plugins/nav.js",
 					"settings":
 					{
@@ -705,7 +739,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "lib/plugins/password.js",
 					"settings":
 					{
@@ -733,7 +767,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "lib/plugins/progress.js",
 					"settings":
 					{
@@ -761,7 +795,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "lib/plugins/prompt.js",
 					"settings":
 					{
@@ -789,7 +823,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "lib/plugins/quit.js",
 					"settings":
 					{
@@ -815,7 +849,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "lib/plugins/section.js",
 					"settings":
 					{
@@ -841,19 +875,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "lib/plugins/table.js",
 					"settings":
 					{
-						"buffer_size": 6232,
+						"buffer_size": 6330,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								254
+								3946,
+								3946
 							]
 						],
 						"settings":
@@ -862,13 +896,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2207.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "lib/plugins/tree.js",
 					"settings":
 					{
@@ -895,7 +929,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "examples/hello.js",
 					"settings":
 					{
@@ -923,7 +957,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "README.md",
 					"settings":
 					{
@@ -951,7 +985,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "/tmp/subl stdin UYGUNk.txt",
 					"settings":
 					{
@@ -977,7 +1011,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1005,7 +1039,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "examples/hello2.js",
 					"settings":
 					{
