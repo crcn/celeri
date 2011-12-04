@@ -51,7 +51,7 @@
 			"file": "lib/plugins/command.js",
 			"settings":
 			{
-				"buffer_size": 1179,
+				"buffer_size": 1122,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +75,7 @@
 			"file": "lib/plugins/backspace.js",
 			"settings":
 			{
-				"buffer_size": 637,
+				"buffer_size": 673,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "lib/plugins/enter.js",
 			"settings":
 			{
-				"buffer_size": 1613,
+				"buffer_size": 1505,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +115,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 748,
+				"buffer_size": 735,
 				"line_ending": "Unix"
 			}
 		},
@@ -140,6 +140,14 @@
 			"settings":
 			{
 				"buffer_size": 1164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin XiqGfi.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -235,7 +243,7 @@
 			"file": "lib/plugins/command.api.js",
 			"settings":
 			{
-				"buffer_size": 1858,
+				"buffer_size": 1842,
 				"line_ending": "Unix"
 			}
 		},
@@ -375,7 +383,7 @@
 	"groups":
 	[
 		{
-			"selected": 16,
+			"selected": 29,
 			"sheets":
 			[
 				{
@@ -481,7 +489,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3013.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -517,15 +525,15 @@
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
-						"buffer_size": 1179,
+						"buffer_size": 1122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1030,
-								1030
+								993,
+								993
 							]
 						],
 						"settings":
@@ -598,15 +606,15 @@
 					"file": "lib/plugins/backspace.js",
 					"settings":
 					{
-						"buffer_size": 637,
+						"buffer_size": 673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								100,
-								100
+								185,
+								185
 							]
 						],
 						"settings":
@@ -654,15 +662,15 @@
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
-						"buffer_size": 1613,
+						"buffer_size": 1505,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1550,
-								1550
+								1442,
+								1442
 							]
 						],
 						"settings":
@@ -734,15 +742,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 748,
+						"buffer_size": 735,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								656,
-								656
+								380,
+								380
 							]
 						],
 						"settings":
@@ -840,6 +848,32 @@
 				},
 				{
 					"buffer": 17,
+					"file": "/tmp/subl stdin XiqGfi.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
 					"file": "lib/plugins/history.js",
 					"settings":
 					{
@@ -867,7 +901,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "lib/plugins/loading.js",
 					"settings":
 					{
@@ -895,7 +929,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "lib/plugins/nav.js",
 					"settings":
 					{
@@ -922,7 +956,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "lib/plugins/password.js",
 					"settings":
 					{
@@ -950,7 +984,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "lib/plugins/progress.js",
 					"settings":
 					{
@@ -978,7 +1012,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "lib/plugins/prompt.js",
 					"settings":
 					{
@@ -1006,7 +1040,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "lib/plugins/quit.js",
 					"settings":
 					{
@@ -1032,7 +1066,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "lib/plugins/section.js",
 					"settings":
 					{
@@ -1058,7 +1092,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "lib/plugins/table.js",
 					"settings":
 					{
@@ -1085,7 +1119,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "lib/plugins/tree.js",
 					"settings":
 					{
@@ -1112,7 +1146,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "lib/utils.js",
 					"settings":
 					{
@@ -1140,19 +1174,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
-						"buffer_size": 1858,
+						"buffer_size": 1842,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1610,
-								1849
+								1592,
+								1592
 							]
 						],
 						"settings":
@@ -1161,13 +1195,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 753.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "examples/hello.js",
 					"settings":
 					{
@@ -1195,7 +1229,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "README.md",
 					"settings":
 					{
@@ -1223,7 +1257,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "/tmp/subl stdin UYGUNk.txt",
 					"settings":
 					{
@@ -1249,7 +1283,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1277,7 +1311,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "examples/hello2.js",
 					"settings":
 					{
