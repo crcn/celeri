@@ -81,37 +81,28 @@ celeri.on('set address :zip OR set address :city :state :zip', function(data)
 
 ```
 
-#### Middleware "->" statement:
+### Executing Javascript
 
+You can easily expose javascript functions by providing an object:
 
 ```javascript
 
-celeri.on('delay :seconds', function(data)
-{
-    console.log("delaying for %s seconds", data.seconds);
 
-    setTimeout(function(self)
-    {
-        if(!self.next()) console.log("done!");
-    }, Number(data.seconds) * 1000, this);
-});
+var api = {
+    sayHello: function(name) {
+        console.log("hello %s!", name || 'craig');
+    }
+}
 
-
-celeri.on('delay 1 -> say hello :name', function(data)
-{
-   console.log('hello %s!', data.name); 
-});
+celeri.on({ api: api });
 
 ```
 
-here's what you get:
-
-    > delay 5 ↩
-    delaying for 5 seconds
-    done
-    > say hello craig ↩
-    delaying for 1 seconds
-    hello craig!
+In terminal:
+    
+    node ./hello ↩
+    > api.sayHello("john"); ↩
+    hello john!
 
 
 
