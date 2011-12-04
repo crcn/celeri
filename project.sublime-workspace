@@ -51,7 +51,7 @@
 			"file": "lib/plugins/auth.js",
 			"settings":
 			{
-				"buffer_size": 356,
+				"buffer_size": 354,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "lib/plugins/api.js",
 			"settings":
 			{
-				"buffer_size": 1812,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 735,
+				"buffer_size": 821,
 				"line_ending": "Unix"
 			}
 		},
@@ -219,7 +219,7 @@
 			"file": "lib/plugins/command.api.js",
 			"settings":
 			{
-				"buffer_size": 1687,
+				"buffer_size": 1600,
 				"line_ending": "Unix"
 			}
 		},
@@ -236,6 +236,14 @@
 			"settings":
 			{
 				"buffer_size": 5559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin UYGUNk.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -351,7 +359,7 @@
 	"groups":
 	[
 		{
-			"selected": 28,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -480,10 +488,11 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 98.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -493,15 +502,15 @@
 					"file": "lib/plugins/auth.js",
 					"settings":
 					{
-						"buffer_size": 356,
+						"buffer_size": 354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								165,
-								165
+								344,
+								344
 							]
 						],
 						"settings":
@@ -631,15 +640,15 @@
 					"file": "lib/plugins/api.js",
 					"settings":
 					{
-						"buffer_size": 1812,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1339,
-								1339
+								0,
+								0
 							]
 						],
 						"settings":
@@ -657,20 +666,21 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 735,
+						"buffer_size": 821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								481,
-								481
+								800,
+								800
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -834,7 +844,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1065,15 +1076,15 @@
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
-						"buffer_size": 1687,
+						"buffer_size": 1600,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1127,
-								1127
+								1595,
+								1595
 							]
 						],
 						"settings":
@@ -1082,7 +1093,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 461.0,
+						"translation.y": 498.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1145,6 +1156,32 @@
 				},
 				{
 					"buffer": 29,
+					"file": "/tmp/subl stdin UYGUNk.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 30,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1172,7 +1209,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "examples/hello2.js",
 					"settings":
 					{
