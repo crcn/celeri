@@ -70,7 +70,7 @@ passed as arguments:
 ```javascript
 
 
-celeri.onCommand('hello :name OR hi :name', function(data)
+celeri.onCommand({ command: 'hello :name OR hi :name', desc: 'some description' }, function(data)
 {
 	console.log('Hello ' + data.name +'!');
 });
