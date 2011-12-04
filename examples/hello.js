@@ -30,7 +30,7 @@ celery.on('download/:file', function(data)
 });
 
 
-celery.on(['timeout :ttl','timeout :ttl :status'], function(data)
+celery.on('timeout :ttl OR timeout :ttl :status', function(data)
 {
     var loader = celery.loading('timeout for '+data.ttl+' seconds: ');
     
