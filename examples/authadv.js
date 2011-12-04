@@ -11,7 +11,7 @@ var credentials;
 
 
  
-celery.on('login OR login :user :pass', function(data)
+celery.onCommand('login OR login :user :pass', function(data)
 {
     var self = this;
     
@@ -60,7 +60,7 @@ celery.on('login OR login :user :pass', function(data)
  * private account into
  */
  
-celery.on('login -> account', function()
+celery.onCommand('login -> account', function()
 {
     console.log('Here\'s your account info %s!', this.user.green);
 });

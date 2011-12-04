@@ -3,12 +3,12 @@ var celery = require('../lib');
 celery.open({  
     prefix: 'hello > '
 });
-celery.on('hello :name', function(data)
+celery.onCommand('hello :name', function(data)
 {
     console.log('hello %s, how are you doing?', data.name);
 });
 
-celery.on('download/:file', function(data)
+celery.onCommand('download :file', function(data)
 {
     console.log("starting");
     
@@ -27,10 +27,10 @@ celery.on('download/:file', function(data)
             celery.newLine('done!');
         }
     }, 10);
-});
+}); 
 
 
-celery.on('timeout :ttl OR timeout :ttl :status', function(data)
+celery.onCommand('timeout :ttl OR timeout :ttl :status', function(data)
 {
     var loader = celery.loading('timeout for '+data.ttl+' seconds: ');
     

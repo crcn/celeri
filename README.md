@@ -17,6 +17,7 @@
     - Middleware
     - Parameters  
 - Trees
+- *Exposing Javascript*, and calling it from the command line
 
 ### To Do:
 
@@ -30,7 +31,7 @@
 ## Usage:
 
 
-### .on(event, callback)
+### .onCommand(event, callback)
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
@@ -40,7 +41,7 @@ Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole]
 
 var celeri = require('celeri');
 
-celeri.on('hello :name', function(data)
+celeri.onCommand('hello :name', function(data)
 {
    console.log("Hello %s!", data.name); 
 });
@@ -69,19 +70,19 @@ passed as arguments:
 ```javascript
 
 
-celeri.on('hello :name OR hi :name', function(data)
+celeri.onCommand('hello :name OR hi :name', function(data)
 {
 	console.log('Hello ' + data.name +'!');
 });
 
-celeri.on('set address :zip OR set address :city :state :zip', function(data)
+celeri.onCommand('set address :zip OR set address :city :state :zip', function(data)
 {
 	console.log("City: %s, State: %s, Zip: %s ", data.city || 'None provided', data.state || 'None provided', data.zip);
 });
 
 ```
 
-### Executing Javascript
+### .onJs(api)
 
 You can easily expose javascript functions by providing an object:
 
@@ -94,7 +95,7 @@ var api = {
     }
 }
 
-celeri.on({ api: api });
+celeri.onJs({ api: api });
 
 ```
 
@@ -103,8 +104,6 @@ In terminal:
     node ./hello ↩
     > api.sayHello("john"); ↩
     hello john!
-
-
 
 ### .progress(label, percent)
 
@@ -192,7 +191,7 @@ celeri.auth(function(user, pass)
 
 ```javascript
 
-celeri.on('help', function()
+celeri.onCommand('help', function()
 {
 	celeri.loadHelp(__dirname +'/help.txt');
 });
@@ -269,7 +268,7 @@ var credentials;
 
 
  
-celeri.on('login OR login :user :pass', function(data)
+celeri.onCommand('login OR login :user :pass', function(data)
 {
     
     //reference to the current request
@@ -327,7 +326,7 @@ celeri.on('login OR login :user :pass', function(data)
  * This stuff's private. The user has to be authenticated *before* this command is executed
  */
  
-celeri.on('login -> account', function()
+celeri.onCommand('login -> account', function()
 {
     console.log('Here\'s your account info %s!', this.user.green);
 });

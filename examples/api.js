@@ -1,7 +1,7 @@
 var cli = require('../');
 
 
-cli.on({
+cli.onJs({
 	cli: cli
 });
 

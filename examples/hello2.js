@@ -1,6 +1,6 @@
 var celery = require('../lib');
 
-celery.on('delay :seconds', function(data)
+celery.onCommand('delay :seconds', function(data)
 {
     console.log("delaying for %s seconds", data.seconds);
     
@@ -11,7 +11,7 @@ celery.on('delay :seconds', function(data)
 });
 
 
-celery.on('delay 1 -> say hello :name', function(data)
+celery.onCommand('delay 1 -> say hello :name', function(data)
 {
    console.log('hello %s!', data.name); 
 });
