@@ -8,63 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "lib/plugins/auth.js",
-			"settings":
-			{
-				"buffer_size": 354,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/tmp/subl stdin EAGME9.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/tmp/subl stdin NdGy42.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/plugins/backspace.js",
-			"settings":
-			{
-				"buffer_size": 673,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/plugins/confirm.js",
-			"settings":
-			{
-				"buffer_size": 876,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lib/plugins/enter.js",
-			"settings":
-			{
-				"buffer_size": 1505,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/tmp/subl stdin B1otjc.txt",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "",
 			"file": "lib/plugins/api.js",
+			"file_size": -1,
+			"file_write_time": -1,
 			"settings":
 			{
 				"buffer_size": 0,
@@ -200,14 +147,6 @@
 			}
 		},
 		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 5594,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/tmp/subl stdin UYGUNk.txt",
 			"settings":
 			{
@@ -235,7 +174,47 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 472,
+				"buffer_size": 480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/index.js",
+			"settings":
+			{
+				"buffer_size": 5322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/plugins/command.js",
+			"settings":
+			{
+				"buffer_size": 1122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/plugins/help.js",
+			"settings":
+			{
+				"buffer_size": 1294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin mDq2oO.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/plugins/command.api.js",
+			"settings":
+			{
+				"buffer_size": 1842,
 				"line_ending": "Unix"
 			}
 		}
@@ -264,6 +243,15 @@
 	},
 	"file_history":
 	[
+		"/tmp/subl stdin B1otjc.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/enter.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/confirm.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/backspace.js",
+		"/tmp/subl stdin NdGy42.txt",
+		"/tmp/subl stdin EAGME9.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/auth.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/README.md",
+		"/tmp/subl stdin V0bkl5.txt",
 		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/command.js",
 		"/tmp/subl stdin IxtHOA.txt",
 		"/tmp/subl stdin xv6X3t.txt",
@@ -345,201 +333,11 @@
 	"groups":
 	[
 		{
-			"selected": 24,
+			"selected": 25,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/plugins/auth.js",
-					"settings":
-					{
-						"buffer_size": 354,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								344,
-								344
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/tmp/subl stdin EAGME9.txt",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/tmp/subl stdin NdGy42.txt",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "lib/plugins/backspace.js",
-					"settings":
-					{
-						"buffer_size": 673,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								185,
-								185
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lib/plugins/confirm.js",
-					"settings":
-					{
-						"buffer_size": 876,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								531,
-								531
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "lib/plugins/enter.js",
-					"settings":
-					{
-						"buffer_size": 1505,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1442,
-								1442
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/tmp/subl stdin B1otjc.txt",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "lib/plugins/api.js",
 					"settings":
 					{
@@ -559,13 +357,13 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 736.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 1,
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
@@ -576,8 +374,8 @@
 						"selection":
 						[
 							[
-								380,
-								380
+								646,
+								646
 							]
 						],
 						"settings":
@@ -592,7 +390,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 2,
 					"file": "examples/api.js",
 					"settings":
 					{
@@ -618,7 +416,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 3,
 					"file": "lib/plugins/exec.js",
 					"settings":
 					{
@@ -646,7 +444,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 4,
 					"file": "/tmp/subl stdin XiqGfi.txt",
 					"settings":
 					{
@@ -672,7 +470,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 5,
 					"file": "lib/plugins/history.js",
 					"settings":
 					{
@@ -700,7 +498,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 6,
 					"file": "lib/plugins/loading.js",
 					"settings":
 					{
@@ -728,7 +526,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 7,
 					"file": "lib/plugins/nav.js",
 					"settings":
 					{
@@ -755,7 +553,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 8,
 					"file": "lib/plugins/password.js",
 					"settings":
 					{
@@ -783,7 +581,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 9,
 					"file": "lib/plugins/progress.js",
 					"settings":
 					{
@@ -811,7 +609,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 10,
 					"file": "lib/plugins/prompt.js",
 					"settings":
 					{
@@ -839,7 +637,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 11,
 					"file": "lib/plugins/quit.js",
 					"settings":
 					{
@@ -865,7 +663,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 12,
 					"file": "lib/plugins/section.js",
 					"settings":
 					{
@@ -891,7 +689,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 13,
 					"file": "lib/plugins/table.js",
 					"settings":
 					{
@@ -918,7 +716,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 14,
 					"file": "/tmp/subl stdin Ek4KN3.txt",
 					"settings":
 					{
@@ -944,7 +742,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 15,
 					"file": "lib/plugins/tree.js",
 					"settings":
 					{
@@ -971,7 +769,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 16,
 					"file": "examples/hello.js",
 					"settings":
 					{
@@ -999,35 +797,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 5594,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								450,
-								450
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 25,
+					"buffer": 17,
 					"file": "/tmp/subl stdin UYGUNk.txt",
 					"settings":
 					{
@@ -1053,7 +823,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 18,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1081,7 +851,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 19,
 					"file": "examples/hello2.js",
 					"settings":
 					{
@@ -1107,19 +877,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 20,
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 472,
+						"buffer_size": 480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								427,
-								427
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1130,6 +900,142 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "lib/index.js",
+					"settings":
+					{
+						"buffer_size": 5322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5173,
+								5173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "lib/plugins/command.js",
+					"settings":
+					{
+						"buffer_size": 1122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1095,
+								1095
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "lib/plugins/help.js",
+					"settings":
+					{
+						"buffer_size": 1294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1038,
+								1038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/tmp/subl stdin mDq2oO.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "lib/plugins/command.api.js",
+					"settings":
+					{
+						"buffer_size": 1842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1538,
+								1538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 753.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
