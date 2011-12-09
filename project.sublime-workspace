@@ -182,7 +182,7 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 5322,
+				"buffer_size": 5354,
 				"line_ending": "Unix"
 			}
 		},
@@ -190,7 +190,7 @@
 			"file": "lib/plugins/command.js",
 			"settings":
 			{
-				"buffer_size": 1122,
+				"buffer_size": 1148,
 				"line_ending": "Unix"
 			}
 		},
@@ -215,6 +215,14 @@
 			"settings":
 			{
 				"buffer_size": 1842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin JVytqQ.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -333,7 +341,7 @@
 	"groups":
 	[
 		{
-			"selected": 25,
+			"selected": 22,
 			"sheets":
 			[
 				{
@@ -909,15 +917,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 5322,
+						"buffer_size": 5354,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5173,
-								5173
+								1601,
+								1601
 							]
 						],
 						"settings":
@@ -927,7 +935,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1387.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -937,15 +945,15 @@
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
-						"buffer_size": 1122,
+						"buffer_size": 1148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1095,
-								1095
+								913,
+								913
 							]
 						],
 						"settings":
@@ -954,7 +962,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1036,6 +1044,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 753.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/tmp/subl stdin JVytqQ.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
