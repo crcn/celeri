@@ -1,10 +1,5 @@
 var celery = require('../lib');
 
-celery.open({  
-
-    //required for middleware / or statements
-    //delimiter: '/',
-});
 
 
 var credentials;
