@@ -190,7 +190,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 511,
+				"buffer_size": 513,
 				"line_ending": "Unix"
 			}
 		},
@@ -206,7 +206,7 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 5373,
+				"buffer_size": 5380,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,6 +335,14 @@
 			"settings":
 			{
 				"buffer_size": 515,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin VeLlAE.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -467,7 +475,7 @@
 	"groups":
 	[
 		{
-			"selected": 40,
+			"selected": 24,
 			"sheets":
 			[
 				{
@@ -1067,15 +1075,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 511,
+						"buffer_size": 513,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								472,
-								472
+								308,
+								308
 							]
 						],
 						"settings":
@@ -1121,15 +1129,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 5373,
+						"buffer_size": 5380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5017,
-								5017
+								121,
+								121
 							]
 						],
 						"settings":
@@ -1139,7 +1147,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3212.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1563,6 +1571,32 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 41,
+					"file": "/tmp/subl stdin VeLlAE.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
