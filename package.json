@@ -11,11 +11,11 @@
         "lib": "./lib"
     },
     "dependencies": {
-        "structr": "0.0.10",
+        "structr": "<0.2.0",
         "colors": "0.5.1",
-        "haba": "0.0.2",
+        "haba": "<0.2.0",
         "tq": "<=0.1.0",
-        "crema": "0.0.1",
+        "crema": "<0.2.0",
         "beanpoll": "<0.3.0",
         "disposable":"<0.0.1"
     },
