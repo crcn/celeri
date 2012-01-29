@@ -1,7 +1,7 @@
 {
     "name": "celeri",
     "description": "CLI lib",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "author": "Craig Condon",
     "repository": {
         "type": "git",
@@ -16,7 +16,8 @@
         "haba": "0.0.2",
         "tq": "<=0.1.0",
         "crema": "0.0.1",
-        "beanpole": "0.1.16"
+        "beanpoll": "<0.3.0",
+        "disposable":"<0.0.1"
     },
     "main": "./lib/index.js"
 }

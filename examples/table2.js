@@ -18,12 +18,10 @@ celery.drawTable(objects, {
 		{
 			name: 'published',
 			width:15,
-			align:'right'
+			align:'left'
 		}],
     
     horz: ' ',
 	vert: '|'
     
 });
-
-celery.open();

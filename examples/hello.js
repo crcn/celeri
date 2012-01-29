@@ -31,7 +31,7 @@ celery.onCommand('download :file', function(data)
 
 
 celery.onCommand('timeout :ttl OR timeout :ttl :status', function(data)
-{
+{   
     var loader = celery.loading('timeout for '+data.ttl+' seconds: ');
     
     setTimeout(function()

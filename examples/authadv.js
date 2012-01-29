@@ -1,14 +1,16 @@
 var celery = require('../lib');
 
+celery.open();
 
 
 var credentials;
 
 
  
-celery.onCommand('login OR login :user :pass', function(data)
+celery.onCommand('login OR login :user :pass', function(data, next)
 {
     var self = this;
+
     
     function onAuth(creds)
     {
@@ -22,7 +24,7 @@ celery.onCommand('login OR login :user :pass', function(data)
         //cache the credentials so the user doesn't have to login each time
         credentials = creds;
         
-        if(!self.next()) console.log("Logged in as %s", creds.user.green);
+        if(!next()) console.log("Logged in as %s", creds.user.green);
     }
     
     

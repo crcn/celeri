@@ -22,7 +22,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 889,
+				"buffer_size": 1739,
 				"line_ending": "Unix"
 			}
 		},
@@ -158,7 +158,7 @@
 			"file": "examples/hello.js",
 			"settings":
 			{
-				"buffer_size": 1028,
+				"buffer_size": 1031,
 				"line_ending": "Unix"
 			}
 		},
@@ -174,7 +174,7 @@
 			"file": "examples/authadv.js",
 			"settings":
 			{
-				"buffer_size": 1257,
+				"buffer_size": 1185,
 				"line_ending": "Unix"
 			}
 		},
@@ -190,7 +190,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 480,
+				"buffer_size": 511,
 				"line_ending": "Unix"
 			}
 		},
@@ -206,7 +206,15 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 5368,
+				"buffer_size": 5373,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin DMt2R5.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -214,7 +222,7 @@
 			"file": "lib/plugins/command.js",
 			"settings":
 			{
-				"buffer_size": 1148,
+				"buffer_size": 541,
 				"line_ending": "Unix"
 			}
 		},
@@ -230,7 +238,7 @@
 			"file": "lib/plugins/help.js",
 			"settings":
 			{
-				"buffer_size": 1294,
+				"buffer_size": 1801,
 				"line_ending": "Unix"
 			}
 		},
@@ -247,6 +255,14 @@
 			"settings":
 			{
 				"buffer_size": 1842,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/plugins/argv/index.js",
+			"settings":
+			{
+				"buffer_size": 205,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,6 +311,30 @@
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/auth.js",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/table3.js",
+			"settings":
+			{
+				"buffer_size": 1655,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "examples/table2.js",
+			"settings":
+			{
+				"buffer_size": 515,
 				"line_ending": "Unix"
 			}
 		}
@@ -362,6 +402,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"next",
+			"data",
+			"emit",
+			"beanpoll",
+			"exports.emit",
+			"emit",
+			"exports.emit",
+			"callback",
+			"parse",
+			"Source",
+			"beanpole",
 			"error",
 			"try",
 			"cli.on",
@@ -416,7 +467,7 @@
 	"groups":
 	[
 		{
-			"selected": 24,
+			"selected": 40,
 			"sheets":
 			[
 				{
@@ -450,15 +501,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 889,
+						"buffer_size": 1739,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								543,
+								545
 							]
 						],
 						"settings":
@@ -620,8 +671,8 @@
 						"selection":
 						[
 							[
-								68,
-								74
+								50,
+								50
 							]
 						],
 						"settings":
@@ -908,15 +959,15 @@
 					"file": "examples/hello.js",
 					"settings":
 					{
-						"buffer_size": 1028,
+						"buffer_size": 1031,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								395,
-								395
+								679,
+								679
 							]
 						],
 						"settings":
@@ -962,15 +1013,15 @@
 					"file": "examples/authadv.js",
 					"settings":
 					{
-						"buffer_size": 1257,
+						"buffer_size": 1185,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1123,
-								1123
+								812,
+								812
 							]
 						],
 						"settings":
@@ -1016,15 +1067,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 480,
+						"buffer_size": 511,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								472,
+								472
 							]
 						],
 						"settings":
@@ -1070,15 +1121,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 5368,
+						"buffer_size": 5373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								196,
-								196
+								5017,
+								5017
 							]
 						],
 						"settings":
@@ -1088,25 +1139,51 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1379.0,
+						"translation.y": 3212.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 25,
-					"file": "lib/plugins/command.js",
+					"file": "/tmp/subl stdin DMt2R5.txt",
 					"settings":
 					{
-						"buffer_size": 1148,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								303,
-								303
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "lib/plugins/command.js",
+					"settings":
+					{
+						"buffer_size": 541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								270
 							]
 						],
 						"settings":
@@ -1115,13 +1192,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 223.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "/tmp/subl stdin q2Wyls.txt",
 					"settings":
 					{
@@ -1147,19 +1224,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "lib/plugins/help.js",
 					"settings":
 					{
-						"buffer_size": 1294,
+						"buffer_size": 1801,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1038,
-								1038
+								27,
+								29
 							]
 						],
 						"settings":
@@ -1169,13 +1246,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 437.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "/tmp/subl stdin mDq2oO.txt",
 					"settings":
 					{
@@ -1201,7 +1278,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
@@ -1212,8 +1289,8 @@
 						"selection":
 						[
 							[
-								1647,
-								1649
+								32,
+								32
 							]
 						],
 						"settings":
@@ -1222,13 +1299,39 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 786.0,
+						"translation.y": 737.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
+					"file": "lib/plugins/argv/index.js",
+					"settings":
+					{
+						"buffer_size": 205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 32,
 					"file": "/tmp/subl stdin JVytqQ.txt",
 					"settings":
 					{
@@ -1254,7 +1357,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 33,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1282,7 +1385,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 34,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1293,8 +1396,8 @@
 						"selection":
 						[
 							[
-								583,
-								583
+								836,
+								836
 							]
 						],
 						"settings":
@@ -1304,13 +1407,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 55.0,
+						"translation.y": 92.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 35,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1336,7 +1439,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 36,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1362,7 +1465,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 37,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1380,6 +1483,86 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 38,
+					"file": "examples/auth.js",
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 39,
+					"file": "examples/table3.js",
+					"settings":
+					{
+						"buffer_size": 1655,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1655,
+								1655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 107.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 40,
+					"file": "examples/table2.js",
+					"settings":
+					{
+						"buffer_size": 515,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								344,
+								344
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

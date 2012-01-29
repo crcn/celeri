@@ -55,5 +55,3 @@ celery.drawTable(objects, {
 ellipsis: true
     
 });
-
-celery.open();
