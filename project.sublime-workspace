@@ -22,7 +22,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 1739,
+				"buffer_size": 1755,
 				"line_ending": "Unix"
 			}
 		},
@@ -207,6 +207,14 @@
 			"settings":
 			{
 				"buffer_size": 5380,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin 3zLYTl.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -475,7 +483,7 @@
 	"groups":
 	[
 		{
-			"selected": 24,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -509,15 +517,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 1739,
+						"buffer_size": 1755,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								543,
-								545
+								983,
+								983
 							]
 						],
 						"settings":
@@ -526,7 +534,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1154,7 +1162,7 @@
 				},
 				{
 					"buffer": 25,
-					"file": "/tmp/subl stdin DMt2R5.txt",
+					"file": "/tmp/subl stdin 3zLYTl.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1180,6 +1188,32 @@
 				},
 				{
 					"buffer": 26,
+					"file": "/tmp/subl stdin DMt2R5.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
@@ -1206,7 +1240,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "/tmp/subl stdin q2Wyls.txt",
 					"settings":
 					{
@@ -1232,7 +1266,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "lib/plugins/help.js",
 					"settings":
 					{
@@ -1260,7 +1294,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "/tmp/subl stdin mDq2oO.txt",
 					"settings":
 					{
@@ -1286,7 +1320,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
@@ -1313,7 +1347,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "lib/plugins/argv/index.js",
 					"settings":
 					{
@@ -1339,7 +1373,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/tmp/subl stdin JVytqQ.txt",
 					"settings":
 					{
@@ -1365,7 +1399,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1393,7 +1427,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1421,7 +1455,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 36,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1447,7 +1481,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 37,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1473,7 +1507,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 38,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1499,7 +1533,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 39,
 					"file": "examples/auth.js",
 					"settings":
 					{
@@ -1525,7 +1559,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 40,
 					"file": "examples/table3.js",
 					"settings":
 					{
@@ -1553,7 +1587,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 41,
 					"file": "examples/table2.js",
 					"settings":
 					{
@@ -1579,7 +1613,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 42,
 					"file": "/tmp/subl stdin VeLlAE.txt",
 					"settings":
 					{
