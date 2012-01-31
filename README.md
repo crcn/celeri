@@ -60,11 +60,7 @@ celeri.option({
    if(data.age) console.log("%s is %d years old.", data.person, data.age); 
    if(data.gender) console.log("%s is a %s.", data.person, data.gender); 
 
-}).
-
-option({
-    command: 
-})
+});
 
 //open for character input
 celeri.open();
