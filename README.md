@@ -50,8 +50,8 @@ celeri.option({
     command: 'hello :person',
     description: 'Prints "hello [person]!"',
     optional: {
-        '--age': 'The person's age',
-        '--gender': 'The person's gender'
+        '--age': 'The person\'s age',
+        '--gender': 'The person\'s gender'
     }
 }, functon(data) {
 
