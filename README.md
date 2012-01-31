@@ -35,7 +35,7 @@
 ## Usage:
 
 
-### .option(event, description, callback)
+### .option(cmdOrOps, descOrCallback, callback)
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
