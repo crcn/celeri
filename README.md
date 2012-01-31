@@ -121,20 +121,12 @@ Optional Flags:
 
 ### .usage(value)
 
-sets the help menu usage text
+Sets the help menu usage text
 
 ```javascript
 celeri.usage('[command] --arg=value');
 ```
 
-In terminal:
-
-```
-    # node ./hello help ↩
-
-    usage: [command] --arg=value
-
-```
 
 #### "OR" statement:
 
@@ -144,9 +136,8 @@ In terminal:
 celeri.option('hello :name OR hi :name', 'some description', function(data)
 {
 	console.log('Hello ' + data.name +'!');
-});
-
-celeri.option('set address :zip OR set address :city :state :zip', function(data)
+}).
+option('set address :zip OR set address :city :state :zip', function(data)
 {
 	console.log("City: %s, State: %s, Zip: %s ", data.city || 'None provided', data.state || 'None provided', data.zip);
 });
