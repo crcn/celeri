@@ -94,7 +94,14 @@ the help menu:
 ```
 # node ./hello help ↩
 
-execute     Does something special
+Usage: [command] --arg=value --arg2
+
+Help:
+  help        Show help menu
+  [cmd] help  Show command help menu
+
+Commands:
+  execute     Does something special
 
 # node ./hello execute help  ↩
 
@@ -122,7 +129,7 @@ In terminal:
     # node ./hello help ↩
 
     usage: [command] --arg=value
-    
+
 ```
 
 #### "OR" statement:
