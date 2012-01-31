@@ -101,6 +101,11 @@ Help:
 Commands:
   hello       Prints "hello [person]!""
 
+```
+
+Command Specific help menu:
+
+```
 # node ./cmd hello help  ↩
 
 Prints "hello [person]!""
@@ -110,8 +115,8 @@ Usage: hello [person]
 Optional Flags: 
   --age       The person's age
   --gender    The person's gender
-
 ```
+
 
 
 ### .usage(value)
