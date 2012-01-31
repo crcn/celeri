@@ -45,28 +45,28 @@ Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole]
 
 var celeri = require('celeri');
 
-//an option without a description
-celeri.option('hello :name', function(data)
-{
-   console.log("Hello %s! arg is \"%s\"", data.name, data.arg); 
-});
-
 //an option with info for the help menu
 celeri.option({
-    command: 'execute :something',
-    description: 'Does something special',
-    options: {
-        flags: {
-            '--someFlag': 'some flag description'
-        }
+    command: 'hello :person',
+    description: 'Prints "hello [person]!"',
+    optional: {
+        '--age': 'The person's age',
+        '--gender': 'The person's gender'
     }
 }, functon(data) {
 
-    console.log('do something!');
+   console.log("Hello %s!", data.person);
+   
+   if(data.age) console.log("%s is %d years old.", data.person, data.age); 
+   if(data.gender) console.log("%s is a %s.", data.person, data.gender); 
 
+}).
+
+option({
+    command: 
 })
 
-//open up character input
+//open for character input
 celeri.open();
 
 //parse the command line args
@@ -74,25 +74,27 @@ celeri.parse(process.argv);
 
 ```
 
-In terminal:
+Interactive in terminal:
     
 ```
-# node ./hello ↩
-> hello world ↩
-hello world!
+# node ./cmd ↩
+> hello craig ↩
+hello craig!
 ```
 
 passed as arguments:
 
 ```
-# node ./hello hello world --arg=something ↩
-hello world! arg is "something"
+# node ./hello hello craig --age=21 --gender=cat ↩
+hello craig!
+craig is 21 years old.
+craig is a cat.
 ```
 
-the help menu:
+Help menu:
 
 ```
-# node ./hello help ↩
+# node ./cmd help ↩
 
 Usage: [command] --arg=value --arg2
 
@@ -101,16 +103,17 @@ Help:
   [cmd] help  Show command help menu
 
 Commands:
-  execute     Does something special
+  hello       Prints "hello [person]!""
 
-# node ./hello execute help  ↩
+# node ./cmd hello help  ↩
 
-Does something Special
+Prints "hello [person]!""
 
-Usage: execute [something]
+Usage: hello [person]
 
-Flags: 
-  --someFlag  some flag description
+Optional Flags: 
+  --age       The person's age
+  --gender    The person's gender
 
 ```
 
