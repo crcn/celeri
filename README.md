@@ -77,33 +77,33 @@ celeri.parse(process.argv);
 In terminal:
     
 ```
-    # node ./hello ↩
-    > hello world ↩
-    hello world!
+# node ./hello ↩
+> hello world ↩
+hello world!
 ```
 
 passed as arguments:
 
 ```
-    # node ./hello hello world --arg=something ↩
-    hello world! arg is "something"
+# node ./hello hello world --arg=something ↩
+hello world! arg is "something"
 ```
 
 the help menu:
 
 ```
-    # node ./hello help ↩
+# node ./hello help ↩
 
-    execute     Does something special
+execute     Does something special
 
-    # node ./hello execute help  ↩
+# node ./hello execute help  ↩
 
-    Does something Special
+Does something Special
 
-    Usage: execute [something]
+Usage: execute [something]
 
-    Flags: 
-      --someFlag  some flag description
+Flags: 
+  --someFlag  some flag description
 
 ```
 
