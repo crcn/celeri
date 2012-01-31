@@ -11,6 +11,8 @@
 - Password input
 - Confirmation 
 - Prompt
+- Parse command line args
+- help menu, and sub help menu
 - Multi-line tables
 - Build flexible commands via [beanpole](https://github.com/spiceapps/beanpole)
     - OR statement 
@@ -28,10 +30,12 @@
 - Add transports instead of depending on native stdin/stdout
     - Ability to use online
 
+
+
 ## Usage:
 
 
-### .onCommand(event, callback)
+### .option(event, description, callback)
 
 Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole](https://github.com/spiceapps/beanpole) for documentation.
 
@@ -41,12 +45,28 @@ Listens for a key (enter, up, left, backspace, etc.), or command. See [beanpole]
 
 var celeri = require('celeri');
 
-celeri.onCommand('hello :name', function(data)
+//an option without a description
+celeri.option('hello :name', function(data)
 {
-   console.log("Hello %s!", data.name); 
+   console.log("Hello %s! arg is \"%s\"", data.name, data.arg); 
 });
 
-//open up character input!
+//an option with info for the help menu
+celeri.option({
+    command: 'execute :something',
+    description: 'Does something special',
+    options: {
+        flags: {
+            '--someFlag': 'some flag description'
+        }
+    }
+}, functon(data) {
+
+    console.log('do something!');
+
+})
+
+//open up character input
 celeri.open();
 
 //parse the command line args
@@ -56,26 +76,66 @@ celeri.parse(process.argv);
 
 In terminal:
     
-    node ./hello ↩
+```
+    # node ./hello ↩
     > hello world ↩
     hello world!
+```
 
 passed as arguments:
 
-    node ./hello hello:world ↩
-    hello world!
+```
+    # node ./hello hello world --arg=something ↩
+    hello world! arg is "something"
+```
+
+the help menu:
+
+```
+    # node ./hello help ↩
+
+    execute     Does something special
+
+    # node ./hello execute help  ↩
+
+    Does something Special
+
+    Usage: execute [something]
+
+    Flags: 
+      --someFlag  some flag description
+
+```
+
+
+### .usage(value)
+
+sets the help menu usage text
+
+```javascript
+celeri.usage('[command] --arg=value');
+```
+
+In terminal:
+
+```
+    # node ./hello help ↩
+
+    usage: [command] --arg=value
+    
+```
 
 #### "OR" statement:
 
 ```javascript
 
 
-celeri.onCommand({ command: 'hello :name OR hi :name', desc: 'some description' }, function(data)
+celeri.option('hello :name OR hi :name', 'some description', function(data)
 {
 	console.log('Hello ' + data.name +'!');
 });
 
-celeri.onCommand('set address :zip OR set address :city :state :zip', function(data)
+celeri.option('set address :zip OR set address :city :state :zip', function(data)
 {
 	console.log("City: %s, State: %s, Zip: %s ", data.city || 'None provided', data.state || 'None provided', data.zip);
 });
@@ -187,17 +247,6 @@ celeri.auth(function(user, pass)
 
 ```
 
-### .loadHelp(filePath)
-
-```javascript
-
-celeri.onCommand('help', function()
-{
-	celeri.loadHelp(__dirname +'/help.txt');
-});
-
-```
-
 
 ### .drawTable(objects, ops)
 
@@ -268,7 +317,7 @@ var credentials;
 
 
  
-celeri.onCommand('login OR login :user :pass', function(data)
+celeri.option('login OR login :user :pass', function(data)
 {
     
     //reference to the current request
@@ -326,7 +375,7 @@ celeri.onCommand('login OR login :user :pass', function(data)
  * This stuff's private. The user has to be authenticated *before* this command is executed
  */
  
-celeri.onCommand('login -> account', function()
+celeri.option('login -> account', function()
 {
     console.log('Here\'s your account info %s!', this.user.green);
 });
