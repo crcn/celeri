@@ -53,7 +53,7 @@ celeri.option({
         '--age': 'The person\'s age',
         '--gender': 'The person\'s gender'
     }
-}, functon(data) {
+}, function(data) {
 
    console.log("Hello %s!", data.person);
    
