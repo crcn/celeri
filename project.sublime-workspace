@@ -22,7 +22,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 2284,
+				"buffer_size": 2454,
 				"line_ending": "Unix"
 			}
 		},
@@ -214,7 +214,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 543,
+				"buffer_size": 544,
 				"line_ending": "Unix"
 			}
 		},
@@ -335,6 +335,14 @@
 			"settings":
 			{
 				"buffer_size": 743,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin KDyeEd.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -580,7 +588,7 @@
 	"groups":
 	[
 		{
-			"selected": 40,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -614,15 +622,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 2284,
+						"buffer_size": 2454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1102,
-								958
+								793,
+								793
 							]
 						],
 						"settings":
@@ -631,7 +639,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 210.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1258,7 +1266,7 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 543,
+						"buffer_size": 544,
 						"regions":
 						{
 						},
@@ -1356,7 +1364,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1395.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1478,8 +1486,8 @@
 						"selection":
 						[
 							[
-								251,
-								251
+								2757,
+								2757
 							]
 						],
 						"settings":
@@ -1489,7 +1497,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1784.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1680,7 +1688,7 @@
 				},
 				{
 					"buffer": 41,
-					"file": "/tmp/subl stdin JVytqQ.txt",
+					"file": "/tmp/subl stdin KDyeEd.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1706,6 +1714,32 @@
 				},
 				{
 					"buffer": 42,
+					"file": "/tmp/subl stdin JVytqQ.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 43,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1733,7 +1767,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 44,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1761,7 +1795,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1787,7 +1821,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1813,7 +1847,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1839,7 +1873,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "examples/auth.js",
 					"settings":
 					{
@@ -1865,7 +1899,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "examples/table3.js",
 					"settings":
 					{
@@ -1893,7 +1927,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 50,
 					"file": "examples/table2.js",
 					"settings":
 					{
@@ -1919,7 +1953,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 51,
 					"file": "/tmp/subl stdin VeLlAE.txt",
 					"settings":
 					{
@@ -1945,7 +1979,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 52,
 					"file": "node_modules/beanpoll/lib/router.js",
 					"settings":
 					{
@@ -1973,7 +2007,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 53,
 					"file": "README.md",
 					"settings":
 					{
@@ -2001,7 +2035,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 54,
 					"file": "examples/hello3.js",
 					"settings":
 					{
