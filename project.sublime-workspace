@@ -22,7 +22,15 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 2454,
+				"buffer_size": 2549,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin XpNp73.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -214,7 +222,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 544,
+				"buffer_size": 575,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,6 +523,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"console.l",
 			"description",
 			"option",
 			"onCommand",
@@ -622,15 +631,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 2454,
+						"buffer_size": 2549,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								793,
-								793
+								1870,
+								1870
 							]
 						],
 						"settings":
@@ -639,14 +648,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1334.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "/tmp/subl stdin Afst66.txt",
+					"file": "/tmp/subl stdin XpNp73.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -672,7 +681,7 @@
 				},
 				{
 					"buffer": 3,
-					"file": "/tmp/subl stdin WyIHUU.txt",
+					"file": "/tmp/subl stdin Afst66.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -698,7 +707,7 @@
 				},
 				{
 					"buffer": 4,
-					"file": "/tmp/subl stdin wHVTmD.txt",
+					"file": "/tmp/subl stdin WyIHUU.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -724,6 +733,32 @@
 				},
 				{
 					"buffer": 5,
+					"file": "/tmp/subl stdin wHVTmD.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "examples/api.js",
 					"settings":
 					{
@@ -749,7 +784,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "lib/plugins/exec.js",
 					"settings":
 					{
@@ -777,7 +812,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "/tmp/subl stdin XiqGfi.txt",
 					"settings":
 					{
@@ -803,7 +838,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "lib/plugins/history.js",
 					"settings":
 					{
@@ -831,7 +866,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "lib/plugins/loading.js",
 					"settings":
 					{
@@ -859,7 +894,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "lib/plugins/nav.js",
 					"settings":
 					{
@@ -886,7 +921,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "lib/plugins/password.js",
 					"settings":
 					{
@@ -914,7 +949,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "lib/plugins/progress.js",
 					"settings":
 					{
@@ -942,7 +977,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "lib/plugins/prompt.js",
 					"settings":
 					{
@@ -970,7 +1005,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "/Users/craig/Dropbox/Developer/Jobs/Spice/private/mealplanner/README.md",
 					"settings":
 					{
@@ -996,7 +1031,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "/tmp/subl stdin kWHZ2H.txt",
 					"settings":
 					{
@@ -1022,7 +1057,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "lib/plugins/quit.js",
 					"settings":
 					{
@@ -1048,7 +1083,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "lib/plugins/section.js",
 					"settings":
 					{
@@ -1074,7 +1109,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "lib/plugins/table.js",
 					"settings":
 					{
@@ -1101,7 +1136,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "/tmp/subl stdin Ek4KN3.txt",
 					"settings":
 					{
@@ -1127,7 +1162,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "lib/plugins/tree.js",
 					"settings":
 					{
@@ -1154,7 +1189,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "examples/hello.js",
 					"settings":
 					{
@@ -1182,7 +1217,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "/tmp/subl stdin UYGUNk.txt",
 					"settings":
 					{
@@ -1208,7 +1243,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1236,7 +1271,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "examples/hello2.js",
 					"settings":
 					{
@@ -1262,11 +1297,11 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 544,
+						"buffer_size": 575,
 						"regions":
 						{
 						},
@@ -1290,7 +1325,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "/tmp/subl stdin y475E2.txt",
 					"settings":
 					{
@@ -1316,7 +1351,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "/tmp/subl stdin HAFRpJ.txt",
 					"settings":
 					{
@@ -1342,7 +1377,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -1370,7 +1405,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "/tmp/subl stdin 3zLYTl.txt",
 					"settings":
 					{
@@ -1396,7 +1431,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "/tmp/subl stdin DMt2R5.txt",
 					"settings":
 					{
@@ -1422,7 +1457,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
@@ -1449,7 +1484,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/tmp/subl stdin q2Wyls.txt",
 					"settings":
 					{
@@ -1475,7 +1510,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "lib/plugins/help.js",
 					"settings":
 					{
@@ -1503,7 +1538,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "/tmp/subl stdin SRSeTW.txt",
 					"settings":
 					{
@@ -1529,7 +1564,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 36,
 					"file": "/tmp/subl stdin 9HshxV.txt",
 					"settings":
 					{
@@ -1555,7 +1590,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 37,
 					"file": "/tmp/subl stdin TXrQgd.txt",
 					"settings":
 					{
@@ -1581,7 +1616,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 38,
 					"file": "/tmp/subl stdin mDq2oO.txt",
 					"settings":
 					{
@@ -1607,7 +1642,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 39,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
@@ -1634,7 +1669,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 40,
 					"file": "/tmp/subl stdin Toznbe.txt",
 					"settings":
 					{
@@ -1660,7 +1695,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 41,
 					"file": "lib/plugins/argv/index.js",
 					"settings":
 					{
@@ -1687,7 +1722,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 42,
 					"file": "/tmp/subl stdin KDyeEd.txt",
 					"settings":
 					{
@@ -1713,7 +1748,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 43,
 					"file": "/tmp/subl stdin JVytqQ.txt",
 					"settings":
 					{
@@ -1739,7 +1774,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 44,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1767,7 +1802,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1795,7 +1830,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1821,7 +1856,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1847,7 +1882,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1873,7 +1908,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "examples/auth.js",
 					"settings":
 					{
@@ -1899,7 +1934,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 50,
 					"file": "examples/table3.js",
 					"settings":
 					{
@@ -1927,7 +1962,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 51,
 					"file": "examples/table2.js",
 					"settings":
 					{
@@ -1953,7 +1988,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 52,
 					"file": "/tmp/subl stdin VeLlAE.txt",
 					"settings":
 					{
@@ -1979,7 +2014,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 53,
 					"file": "node_modules/beanpoll/lib/router.js",
 					"settings":
 					{
@@ -2007,7 +2042,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 54,
 					"file": "README.md",
 					"settings":
 					{
@@ -2035,7 +2070,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 55,
 					"file": "examples/hello3.js",
 					"settings":
 					{
@@ -2096,7 +2131,7 @@
 	"menu_visible": true,
 	"replace":
 	{
-		"height": 0.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":

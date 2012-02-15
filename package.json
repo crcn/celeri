@@ -13,7 +13,7 @@
     "dependencies": {
         "structr": "<0.2.0",
         "colors": "0.5.1",
-        "haba": "<0.2.0",
+        "plugin": "<0.2.0",
         "tq": "<=0.1.0",
         "crema": "<0.2.0",
         "beanpoll": "<0.3.0",
