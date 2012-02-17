@@ -1,25 +1,25 @@
 {
-    "name": "celeri",
-    "description": "CLI lib",
-    "version": "0.2.12",
-    "author": "Craig Condon",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/crcn/celeri.git"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "dependencies": {
-        "structr": "<0.2.0",
-        "colors": "0.5.1",
-        "plugin": "<0.2.0",
-        "tq": "<=0.1.0",
-        "crema": "<0.2.0",
-        "beanpoll": "<0.3.0",
-        "disposable": "<0.2.0",
-        "outcome": "<0.2.0",
-        "underscore": "1.2.x"
-    },
-    "main": "./lib/index.js"
+  "name": "celeri",
+  "description": "CLI lib",
+  "version": "0.2.12",
+  "author": "Craig Condon",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/crcn/celeri.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "structr": "<0.2.0",
+    "colors": "0.5.1",
+    "plugin": "<0.2.0",
+    "tq": "<=0.1.0",
+    "crema": "<0.2.0",
+    "beanpoll": "<0.3.0",
+    "disposable": "<0.2.0",
+    "outcome": "<0.2.0",
+    "underscore": "1.2.x"
+  },
+  "main": "./lib/index.js"
 }
