@@ -22,7 +22,7 @@
 			"file": "lib/plugins/command.route.js",
 			"settings":
 			{
-				"buffer_size": 2549,
+				"buffer_size": 2540,
 				"line_ending": "Unix"
 			}
 		},
@@ -222,7 +222,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 575,
+				"buffer_size": 577,
 				"line_ending": "Unix"
 			}
 		},
@@ -246,7 +246,7 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 5591,
+				"buffer_size": 5593,
 				"line_ending": "Unix"
 			}
 		},
@@ -438,7 +438,7 @@
 			"file": "node_modules/beanpoll/lib/router.js",
 			"settings":
 			{
-				"buffer_size": 3492,
+				"buffer_size": 3453,
 				"line_ending": "Unix"
 			}
 		},
@@ -523,6 +523,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"path",
+			"crema",
 			"console.l",
 			"description",
 			"option",
@@ -597,7 +599,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 26,
 			"sheets":
 			[
 				{
@@ -631,15 +633,15 @@
 					"file": "lib/plugins/command.route.js",
 					"settings":
 					{
-						"buffer_size": 2549,
+						"buffer_size": 2540,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1870,
-								1870
+								159,
+								163
 							]
 						],
 						"settings":
@@ -648,7 +650,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1334.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1301,21 +1303,21 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 575,
+						"buffer_size": 577,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								416,
+								416
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1381,15 +1383,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 5591,
+						"buffer_size": 5593,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5099,
-								5099
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1706,8 +1708,8 @@
 						"selection":
 						[
 							[
-								383,
-								383
+								492,
+								492
 							]
 						],
 						"settings":
@@ -2018,7 +2020,7 @@
 					"file": "node_modules/beanpoll/lib/router.js",
 					"settings":
 					{
-						"buffer_size": 3492,
+						"buffer_size": 3453,
 						"regions":
 						{
 						},
