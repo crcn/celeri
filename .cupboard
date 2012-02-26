@@ -1,2 +1,6 @@
 [commands]
 proj = subl --project project.sublime-project
+
+
+[ignore]
+project.sublime-\w+
