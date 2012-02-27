@@ -227,6 +227,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin ibImam.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/tmp/subl stdin v6XN9x.txt",
 			"settings":
 			{
@@ -465,6 +473,14 @@
 				"buffer_size": 588,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": ".cupboard",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -607,7 +623,7 @@
 	"groups":
 	[
 		{
-			"selected": 26,
+			"selected": 58,
 			"sheets":
 			[
 				{
@@ -1336,7 +1352,7 @@
 				},
 				{
 					"buffer": 27,
-					"file": "/tmp/subl stdin v6XN9x.txt",
+					"file": "/tmp/subl stdin ibImam.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1362,7 +1378,7 @@
 				},
 				{
 					"buffer": 28,
-					"file": "/tmp/subl stdin y475E2.txt",
+					"file": "/tmp/subl stdin v6XN9x.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1388,7 +1404,7 @@
 				},
 				{
 					"buffer": 29,
-					"file": "/tmp/subl stdin HAFRpJ.txt",
+					"file": "/tmp/subl stdin y475E2.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -1414,6 +1430,32 @@
 				},
 				{
 					"buffer": 30,
+					"file": "/tmp/subl stdin HAFRpJ.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 31,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -1441,7 +1483,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "/tmp/subl stdin 3zLYTl.txt",
 					"settings":
 					{
@@ -1467,7 +1509,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/tmp/subl stdin DMt2R5.txt",
 					"settings":
 					{
@@ -1493,7 +1535,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
@@ -1520,7 +1562,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 35,
 					"file": "/tmp/subl stdin q2Wyls.txt",
 					"settings":
 					{
@@ -1546,7 +1588,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 36,
 					"file": "lib/plugins/help.js",
 					"settings":
 					{
@@ -1574,7 +1616,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 37,
 					"file": "/tmp/subl stdin SRSeTW.txt",
 					"settings":
 					{
@@ -1600,7 +1642,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 38,
 					"file": "/tmp/subl stdin 9HshxV.txt",
 					"settings":
 					{
@@ -1626,7 +1668,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 39,
 					"file": "/tmp/subl stdin TXrQgd.txt",
 					"settings":
 					{
@@ -1652,7 +1694,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 40,
 					"file": "/tmp/subl stdin mDq2oO.txt",
 					"settings":
 					{
@@ -1678,7 +1720,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 41,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
@@ -1705,7 +1747,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 42,
 					"file": "/tmp/subl stdin Toznbe.txt",
 					"settings":
 					{
@@ -1731,7 +1773,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 43,
 					"file": "lib/plugins/argv/index.js",
 					"settings":
 					{
@@ -1758,7 +1800,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 44,
 					"file": "/tmp/subl stdin KDyeEd.txt",
 					"settings":
 					{
@@ -1784,7 +1826,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 45,
 					"file": "/tmp/subl stdin JVytqQ.txt",
 					"settings":
 					{
@@ -1810,7 +1852,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 46,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1838,7 +1880,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 47,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1866,7 +1908,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 48,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1892,7 +1934,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 49,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1918,7 +1960,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 50,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1944,7 +1986,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 51,
 					"file": "examples/auth.js",
 					"settings":
 					{
@@ -1970,7 +2012,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 52,
 					"file": "examples/table3.js",
 					"settings":
 					{
@@ -1998,7 +2040,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 53,
 					"file": "examples/table2.js",
 					"settings":
 					{
@@ -2024,7 +2066,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 54,
 					"file": "/tmp/subl stdin VeLlAE.txt",
 					"settings":
 					{
@@ -2050,7 +2092,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 55,
 					"file": "node_modules/beanpoll/lib/router.js",
 					"settings":
 					{
@@ -2078,7 +2120,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 56,
 					"file": "README.md",
 					"settings":
 					{
@@ -2106,7 +2148,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 56,
+					"buffer": 57,
 					"file": "examples/hello3.js",
 					"settings":
 					{
@@ -2124,6 +2166,32 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 58,
+					"file": ".cupboard",
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
