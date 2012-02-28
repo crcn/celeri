@@ -481,6 +481,14 @@
 				"buffer_size": 88,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/tmp/subl stdin 4khPaT.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -623,7 +631,7 @@
 	"groups":
 	[
 		{
-			"selected": 58,
+			"selected": 56,
 			"sheets":
 			[
 				{
@@ -2131,8 +2139,8 @@
 						"selection":
 						[
 							[
-								1609,
-								1018
+								66,
+								17
 							]
 						],
 						"settings":
@@ -2142,7 +2150,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 420.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2187,6 +2195,32 @@
 							[
 								87,
 								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 59,
+					"file": "/tmp/subl stdin 4khPaT.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
