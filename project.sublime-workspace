@@ -214,7 +214,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 577,
+				"buffer_size": 576,
 				"line_ending": "Unix"
 			}
 		},
@@ -254,7 +254,7 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 5593,
+				"buffer_size": 5563,
 				"line_ending": "Unix"
 			}
 		},
@@ -459,6 +459,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin bR34jM.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "examples/hello3.js",
 			"settings":
 			{
@@ -549,6 +557,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Structr",
 			"last",
 			"minWidth",
 			"percW",
@@ -631,7 +640,7 @@
 	"groups":
 	[
 		{
-			"selected": 55,
+			"selected": 13,
 			"sheets":
 			[
 				{
@@ -672,8 +681,8 @@
 						"selection":
 						[
 							[
-								159,
-								163
+								935,
+								942
 							]
 						],
 						"settings":
@@ -829,8 +838,8 @@
 						"selection":
 						[
 							[
-								146,
-								150
+								382,
+								382
 							]
 						],
 						"settings":
@@ -1308,15 +1317,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 577,
+						"buffer_size": 576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								416,
-								416
+								306,
+								306
 							]
 						],
 						"settings":
@@ -1440,15 +1449,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 5593,
+						"buffer_size": 5563,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								45,
+								45
 							]
 						],
 						"settings":
@@ -1458,7 +1467,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1395.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1527,8 +1536,8 @@
 						"selection":
 						[
 							[
-								349,
-								349
+								102,
+								102
 							]
 						],
 						"settings":
@@ -1591,7 +1600,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1784.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1712,8 +1721,8 @@
 						"selection":
 						[
 							[
-								32,
-								32
+								1334,
+								1341
 							]
 						],
 						"settings":
@@ -1722,7 +1731,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 721.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1844,8 +1853,8 @@
 						"selection":
 						[
 							[
-								257,
-								257
+								308,
+								308
 							]
 						],
 						"settings":
@@ -1872,8 +1881,8 @@
 						"selection":
 						[
 							[
-								836,
-								836
+								397,
+								397
 							]
 						],
 						"settings":
@@ -2130,6 +2139,32 @@
 				},
 				{
 					"buffer": 56,
+					"file": "/tmp/subl stdin bR34jM.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 57,
 					"file": "examples/hello3.js",
 					"settings":
 					{
@@ -2155,7 +2190,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 57,
+					"buffer": 58,
 					"file": ".cupboard",
 					"settings":
 					{
@@ -2181,7 +2216,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 58,
+					"buffer": 59,
 					"file": "/tmp/subl stdin 4khPaT.txt",
 					"settings":
 					{
