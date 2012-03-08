@@ -163,14 +163,6 @@
 			}
 		},
 		{
-			"file": "lib/plugins/table.js",
-			"settings":
-			{
-				"buffer_size": 6332,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/tmp/subl stdin Ek4KN3.txt",
 			"settings":
 			{
@@ -494,11 +486,11 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -515,6 +507,8 @@
 	},
 	"file_history":
 	[
+		"/tmp/subl stdin BuD5gZ.txt",
+		"/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/table.js",
 		"/Users/craig/Dropbox/Developer/Public/celeri/examples/main.js",
 		"/tmp/subl stdin B1otjc.txt",
 		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/celeri/lib/plugins/enter.js",
@@ -555,6 +549,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"last",
+			"minWidth",
+			"percW",
+			"addLines",
+			"value",
+			"addLines",
 			"path",
 			"crema",
 			"console.l",
@@ -631,7 +631,7 @@
 	"groups":
 	[
 		{
-			"selected": 56,
+			"selected": 55,
 			"sheets":
 			[
 				{
@@ -1144,33 +1144,6 @@
 				},
 				{
 					"buffer": 19,
-					"file": "lib/plugins/table.js",
-					"settings":
-					{
-						"buffer_size": 6332,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5983,
-								5983
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2987.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 20,
 					"file": "/tmp/subl stdin Ek4KN3.txt",
 					"settings":
 					{
@@ -1196,7 +1169,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 20,
 					"file": "lib/plugins/tree.js",
 					"settings":
 					{
@@ -1223,7 +1196,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 21,
 					"file": "examples/hello.js",
 					"settings":
 					{
@@ -1251,7 +1224,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 22,
 					"file": "/tmp/subl stdin UYGUNk.txt",
 					"settings":
 					{
@@ -1277,7 +1250,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 23,
 					"file": "examples/authadv.js",
 					"settings":
 					{
@@ -1305,7 +1278,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 24,
 					"file": "examples/hello2.js",
 					"settings":
 					{
@@ -1331,7 +1304,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 25,
 					"file": "package.json",
 					"settings":
 					{
@@ -1359,7 +1332,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 26,
 					"file": "/tmp/subl stdin ibImam.txt",
 					"settings":
 					{
@@ -1385,7 +1358,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 27,
 					"file": "/tmp/subl stdin v6XN9x.txt",
 					"settings":
 					{
@@ -1411,7 +1384,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 28,
 					"file": "/tmp/subl stdin y475E2.txt",
 					"settings":
 					{
@@ -1437,7 +1410,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 29,
 					"file": "/tmp/subl stdin HAFRpJ.txt",
 					"settings":
 					{
@@ -1463,7 +1436,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 30,
 					"file": "lib/index.js",
 					"settings":
 					{
@@ -1491,7 +1464,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 31,
 					"file": "/tmp/subl stdin 3zLYTl.txt",
 					"settings":
 					{
@@ -1517,7 +1490,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 32,
 					"file": "/tmp/subl stdin DMt2R5.txt",
 					"settings":
 					{
@@ -1543,7 +1516,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 34,
+					"buffer": 33,
 					"file": "lib/plugins/command.js",
 					"settings":
 					{
@@ -1570,7 +1543,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 35,
+					"buffer": 34,
 					"file": "/tmp/subl stdin q2Wyls.txt",
 					"settings":
 					{
@@ -1596,7 +1569,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 36,
+					"buffer": 35,
 					"file": "lib/plugins/help.js",
 					"settings":
 					{
@@ -1624,7 +1597,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 37,
+					"buffer": 36,
 					"file": "/tmp/subl stdin SRSeTW.txt",
 					"settings":
 					{
@@ -1650,7 +1623,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 38,
+					"buffer": 37,
 					"file": "/tmp/subl stdin 9HshxV.txt",
 					"settings":
 					{
@@ -1676,7 +1649,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 39,
+					"buffer": 38,
 					"file": "/tmp/subl stdin TXrQgd.txt",
 					"settings":
 					{
@@ -1702,7 +1675,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 40,
+					"buffer": 39,
 					"file": "/tmp/subl stdin mDq2oO.txt",
 					"settings":
 					{
@@ -1728,7 +1701,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 41,
+					"buffer": 40,
 					"file": "lib/plugins/command.api.js",
 					"settings":
 					{
@@ -1755,7 +1728,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 42,
+					"buffer": 41,
 					"file": "/tmp/subl stdin Toznbe.txt",
 					"settings":
 					{
@@ -1781,7 +1754,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 43,
+					"buffer": 42,
 					"file": "lib/plugins/argv/index.js",
 					"settings":
 					{
@@ -1808,7 +1781,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 44,
+					"buffer": 43,
 					"file": "/tmp/subl stdin KDyeEd.txt",
 					"settings":
 					{
@@ -1834,7 +1807,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 45,
+					"buffer": 44,
 					"file": "/tmp/subl stdin JVytqQ.txt",
 					"settings":
 					{
@@ -1860,7 +1833,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 46,
+					"buffer": 45,
 					"file": "lib/plugins/confirm.js",
 					"settings":
 					{
@@ -1888,7 +1861,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 47,
+					"buffer": 46,
 					"file": "lib/plugins/enter.js",
 					"settings":
 					{
@@ -1916,7 +1889,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 48,
+					"buffer": 47,
 					"file": "/tmp/subl stdin 63mSHQ.txt",
 					"settings":
 					{
@@ -1942,7 +1915,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 49,
+					"buffer": 48,
 					"file": "/tmp/subl stdin PDf1wr.txt",
 					"settings":
 					{
@@ -1968,7 +1941,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 50,
+					"buffer": 49,
 					"file": "/tmp/subl stdin I1hkSY.txt",
 					"settings":
 					{
@@ -1994,7 +1967,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 51,
+					"buffer": 50,
 					"file": "examples/auth.js",
 					"settings":
 					{
@@ -2020,7 +1993,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 52,
+					"buffer": 51,
 					"file": "examples/table3.js",
 					"settings":
 					{
@@ -2048,7 +2021,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 53,
+					"buffer": 52,
 					"file": "examples/table2.js",
 					"settings":
 					{
@@ -2074,7 +2047,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 54,
+					"buffer": 53,
 					"file": "/tmp/subl stdin VeLlAE.txt",
 					"settings":
 					{
@@ -2100,7 +2073,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 55,
+					"buffer": 54,
 					"file": "node_modules/beanpoll/lib/router.js",
 					"settings":
 					{
@@ -2128,7 +2101,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 56,
+					"buffer": 55,
 					"file": "README.md",
 					"settings":
 					{
@@ -2156,7 +2129,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 57,
+					"buffer": 56,
 					"file": "examples/hello3.js",
 					"settings":
 					{
@@ -2182,7 +2155,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 58,
+					"buffer": 57,
 					"file": ".cupboard",
 					"settings":
 					{
@@ -2208,7 +2181,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 59,
+					"buffer": 58,
 					"file": "/tmp/subl stdin 4khPaT.txt",
 					"settings":
 					{

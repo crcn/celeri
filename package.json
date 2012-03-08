@@ -1,7 +1,7 @@
 {
     "name": "celeri",
     "description": "CLI lib",
-    "version": "0.2.14",
+    "version": "0.2.15",
     "author": "Craig Condon",
     "repository": {
         "type": "git",
@@ -11,7 +11,7 @@
         "lib": "./lib"
     },
     "dependencies": {
-        "structr": "<0.2.0",
+        "structr": "0.2.x",
         "colors": "0.5.1",
         "plugin": "<0.2.0",
         "tq": "<=0.1.0",
