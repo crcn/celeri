@@ -1,0 +1,50 @@
+
+start 
+  = route
+
+route
+  = orChannel? orTag*  orChannel thru*
+
+
+orTag 
+  = tag (or tag)*
+
+
+tag 
+  = tg:(ws? "-" string equals? ws?) {  return tg.slice(tg.indexOf('-')+1);  }
+
+or
+  = "OR"
+
+
+equals
+  = eq: ("=" string) { return eq[1]; }
+
+ws
+  = " "+ { return ""; }
+
+orChannel
+  =  channel (or channel)* 
+
+channel 
+  =  ch: ("(" path* ")") { return ch[1]; }
+  / path* 
+
+path 
+  = pt:(sep? param) { return pt[1] }
+
+param
+  = par:(":"? string) { return par.join(""); }
+
+sep
+  = [/ ]+ { return "/"; }
+
+group 
+  = "(" string+ ")"
+
+thru 
+  = th:(ws? "->" ws? orChannel) { return th.pop();  }
+
+
+string "string"
+  = strings:[a-zA-Z0-9]+ { return strings.join(""); };

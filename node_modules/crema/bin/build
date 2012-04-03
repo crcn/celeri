@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pegjs ../src/grammar.peg ../lib/parser.js

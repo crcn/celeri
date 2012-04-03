@@ -1,0 +1,6 @@
+[commands]
+proj = subl --project project.sublime-project
+start = node .
+
+[ignore]
+project.sublime-\w+
