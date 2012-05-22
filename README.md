@@ -1,4 +1,3 @@
-
 ### C-e-L-er-I
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
@@ -61,9 +60,6 @@ celeri.option({
    if(data.gender) console.log("%s is a %s.", data.person, data.gender); 
 
 });
-
-//open for character input
-celeri.open();
 
 //parse the command line args
 celeri.parse(process.argv);
