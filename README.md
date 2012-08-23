@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/crcn/celeri.png)](http://travis-ci.org/crcn/celeri)
 ### C-e-L-er-I
 
 ![Alt command line](http://i.imgur.com/DA77U.png)
