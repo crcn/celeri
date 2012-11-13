@@ -1,5 +1,7 @@
+var Structr = require("../");
+
 var OverloadedClass = Structr({      
-	'__construct': function(name)
+	'constructor': function(name)
 	{
 		this._name = name;     
 	},  

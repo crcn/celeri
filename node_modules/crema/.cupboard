@@ -1,5 +1,5 @@
 [commands]
-proj = subl --project project.sublime-project
+proj = subl . 
 start = node .
 
 [ignore]

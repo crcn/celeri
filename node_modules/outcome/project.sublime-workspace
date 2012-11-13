@@ -33,7 +33,7 @@
 			"file": "lib/index.js",
 			"settings":
 			{
-				"buffer_size": 2165,
+				"buffer_size": 2253,
 				"line_ending": "Unix"
 			}
 		},
@@ -130,14 +130,6 @@
 			"settings":
 			{
 				"buffer_size": 99,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 316,
 				"line_ending": "Unix"
 			}
 		},
@@ -240,7 +232,26 @@
 			"file": ".cupboard",
 			"settings":
 			{
-				"buffer_size": 286,
+				"buffer_size": 301,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/tmp/subl stdin ITMk6f.txt",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin LDuRnL.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -269,6 +280,7 @@
 	},
 	"file_history":
 	[
+		"/Users/craig/Developer/Public/outcome.js/package.json",
 		"/Users/craig/Dropbox/Developer/Public/outcome.js/README.md",
 		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/outcome.js/README2.md",
 		"/Users/craig/.cupboard/projects/spice.io/beans/groups.core/delegate.js",
@@ -391,7 +403,7 @@
 	"groups":
 	[
 		{
-			"selected": 28,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -451,15 +463,15 @@
 					"file": "lib/index.js",
 					"settings":
 					{
-						"buffer_size": 2165,
+						"buffer_size": 2253,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1021,
-								1027
+								1782,
+								1782
 							]
 						],
 						"settings":
@@ -468,7 +480,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 721.0,
+						"translation.y": 1034.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -787,34 +799,6 @@
 				},
 				{
 					"buffer": 15,
-					"file": "package.json",
-					"settings":
-					{
-						"buffer_size": 316,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 16,
 					"file": "/tmp/subl stdin 9nheXs.txt",
 					"settings":
 					{
@@ -840,7 +824,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 16,
 					"file": "examples/fs-test.js",
 					"settings":
 					{
@@ -867,7 +851,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 17,
 					"file": "examples/basic-test.js",
 					"settings":
 					{
@@ -894,7 +878,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 18,
 					"file": "examples/test3.js",
 					"settings":
 					{
@@ -921,7 +905,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 19,
 					"settings":
 					{
 						"buffer_size": 0,
@@ -947,7 +931,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 20,
 					"file": "examples/test.html",
 					"settings":
 					{
@@ -974,7 +958,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 21,
 					"file": "README.md",
 					"settings":
 					{
@@ -1001,7 +985,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 22,
 					"file": "/tmp/subl stdin fcarB4.txt",
 					"settings":
 					{
@@ -1027,7 +1011,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 23,
 					"file": "/tmp/subl stdin zZHbVh.txt",
 					"settings":
 					{
@@ -1053,7 +1037,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 24,
 					"file": "/tmp/subl stdin HOWgA6.txt",
 					"settings":
 					{
@@ -1079,7 +1063,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 25,
 					"file": "/tmp/subl stdin 002d3j.txt",
 					"settings":
 					{
@@ -1105,7 +1089,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 26,
 					"file": "outcome.js",
 					"settings":
 					{
@@ -1133,19 +1117,71 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 27,
 					"file": ".cupboard",
 					"settings":
 					{
-						"buffer_size": 286,
+						"buffer_size": 301,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/tmp/subl stdin ITMk6f.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/tmp/subl stdin LDuRnL.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":

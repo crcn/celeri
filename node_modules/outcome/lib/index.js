@@ -117,6 +117,11 @@ module.exports = function(listeners) {
 
 }
 
+
+module.exports.on = function() {
+	globalEmitter.on.apply(globalEmitter, arguments);
+}
+
 //bleh this could be better. Need to copy the chain functions to the module.exports var
 var chain = Chain();
 
