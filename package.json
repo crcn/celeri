@@ -20,7 +20,8 @@
     "crema": "0.1.x",
     "beanpoll": "0.2.x",
     "plugin": "0.2.x",
-    "keypress": "0.1.x"
+    "keypress": "0.1.x",
+    "dsync": "0.0.x"
   },
   "main": "./lib/index.js"
 }
