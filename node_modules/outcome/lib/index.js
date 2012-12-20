@@ -14,15 +14,11 @@ var Chain = function(listeners) {
 		var args = Array.apply(null, arguments), orgArgs = arguments;
 
 		if(listeners.callback) {
-
 			listeners.callback.apply(this, args);
-
 		}
 
 		if(listeners.handle) {
-			
 			listeners.handle.apply(listeners, args);
-
 		} else {
 
 			//error should always be first args
@@ -30,14 +26,11 @@ var Chain = function(listeners) {
 
 			//on error
 			if(err) {
-
 				listeners.error.call(this, err);
-
 			} else
-			if(listeners.success) {
-				
-				listeners.success.apply(this, args);
 
+			if(listeners.success) {
+				listeners.success.apply(this, args);
 			}
 
 		}	
@@ -48,33 +41,34 @@ var Chain = function(listeners) {
 
 	//DEPRECATED
 	fn.done = function(fn) {
-
 		return fn.callback(fn);
-
 	}
 
 	fn.handle = function(value) {
-
 		return _copy({ handle: value });
-		
 	}
+
+	fn.vine = function() {
+		return fn.handle(function(resp) {
+			if(resp.errors) {
+				this.error(resp.errors);
+			} else {
+				this.success(resp.result);
+			}
+		});
+	}
+
 
 	fn.callback = function(value) {
-		
 		return _copy({ callback: value });
-
 	}
 
-	fn.success = function(value) {
-			
+	fn.success = fn.s = function(value) {
 		return _copy({ success: value });
-
 	}
 
-	fn.error = function(value) {
-
+	fn.error = fn.e = function(value) {
 		return _copy({ error: value });
-
 	}
 
 
@@ -85,7 +79,6 @@ var Chain = function(listeners) {
 
 			//no error callback? check of unhandled error is present, or throw
 			if(!globalEmitter.emit('unhandledError', err) && !listeners.callback) throw err;
-
 		}
 
 	}
@@ -112,9 +105,7 @@ var Chain = function(listeners) {
 
 
 module.exports = function(listeners) {
-
 	return Chain(listeners);
-
 }
 
 

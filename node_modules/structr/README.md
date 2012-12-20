@@ -517,27 +517,6 @@ else
 Tips:
 ----
 
-* Use underscores before any private method / property. 
-
-E.g: 
-
-
-```javascript
-
-var SomeClass = Structr({
-	
-	"__construct": function ()
-	{
-		this._myPrivateVariable = "some private value";
-	},
-	
-	"_myPrivateMethod": function ()
-	{
-		//private stuff here
-	}
-});
-
-```
 	
 * Wrap methods / properties in single, or double quotes. 
 * Avoid the over-use of override, or overloaded methods.
