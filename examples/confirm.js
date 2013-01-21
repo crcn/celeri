@@ -1,6 +1,6 @@
 var celery = require('../lib');
 
-celery.confirm('Do you want to continue?', function(yes)
+celery.confirm('Do you want to continue?f dsfsdf sf sfsd fsd fsf sf sf sf sfsd bfs jf sdbjfsdbsfdbkfsdbjkfsdbfsdbkjf b jkbfksjfbsk', function(yes)
 {
     if(yes)
     {
