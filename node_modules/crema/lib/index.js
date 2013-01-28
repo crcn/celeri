@@ -226,13 +226,18 @@ module.exports.grammar = function(grammar) {
 module.exports.parsePath = parsePath;
 
 module.exports.stringifySegments = function(segments, params, ignoreParams) {
-	return "/" + segments.map(function(seg) {
+	var segs = segments.map(function(seg) {
 		var buffer = "";
 		if(seg.param) buffer += ":";
 		if(seg.value) buffer += seg.value;
 		if(seg.test) buffer += seg.test.source;
 		return buffer;
 	}).join("/");
+
+
+	if(segs.substr(0, 1) != ".") return "/" + segs;
+
+	return segs;
 }
 
 
