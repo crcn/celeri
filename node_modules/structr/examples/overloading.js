@@ -6,7 +6,7 @@ var OverloadedClass = Structr({
 		this._name = name;     
 	},  
 	'1 getName': function(name, callback)
-	{                         
+	{                       
 		this._name = name;    
 		this.getName(callback);
 	},
@@ -50,9 +50,10 @@ test1.getName('jake', function(name)
 	console.log(name)
 });
 
+console.log(test1.getName());
 
 var test2 = new OverloadedSubClass('Craig')       
-test2.getName('jake', function(name)
+test2.getName('john', function(name)
 {
 	console.log(name)
 });

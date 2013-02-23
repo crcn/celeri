@@ -1,7 +1,7 @@
 {
     "name": "celeri",
     "description": "CLI lib",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "author": "Craig Condon",
     "repository": {
         "type": "git",
@@ -19,7 +19,7 @@
         "tq": "0.0.x",
         "crema": "0.1.x",
         "beanpoll": "0.2.x",
-        "plugin": "0.2.x",
+        "plugin": "0.3.x",
         "keypress": "0.1.x",
         "dsync": "0.0.x"
     },

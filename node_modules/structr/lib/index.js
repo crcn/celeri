@@ -458,12 +458,14 @@ Structr.parseMetadata = function(metadata) {
 
 Structr.extend = function () {
 	var from = {},
-	mixins = Array.apply([], arguments),
+	mixins = Array.prototype.slice.call(arguments, 0),
 	to = mixins.pop();
 
-
 	if(mixins.length > 1) {
-		from = Structr.extend.apply(null, mixins);
+		for(var i = 0, n = mixins.length; i < n; i++) {
+			var mixin = mixins[i];
+			from = Structr.extend(from, typeof mixin == "function" ? mixin.prototype : mixin);
+		}
 	} else {
 		from = mixins.pop() || from;
 	}
@@ -471,6 +473,7 @@ Structr.extend = function () {
 
 	//class? fetch the prototype
 	if(typeof from == 'function') {
+
 
 		var fromConstructor = from;
 
@@ -488,7 +491,7 @@ Structr.extend = function () {
 		__private: {
 
 			//contains modifiers for all properties of object
-			propertyModifiers: {}
+			propertyModifiers: { }
 		}
 	};
 

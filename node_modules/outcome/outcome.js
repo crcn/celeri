@@ -7,12 +7,12 @@
     var cached = require.cache[resolved];
     var res = cached? cached.exports : mod();
     return res;
-}
+};
 
 require.paths = [];
 require.modules = {};
 require.cache = {};
-require.extensions = [".js",".coffee"];
+require.extensions = [".js",".coffee",".json"];
 
 require._core = {
     'assert': true,
@@ -139,10 +139,13 @@ require.alias = function (from, to) {
 
 (function () {
     var process = {};
+    var global = typeof window !== 'undefined' ? window : {};
+    var definedProcess = false;
     
     require.define = function (filename, fn) {
-        if (require.modules.__browserify_process) {
+        if (!definedProcess && require.modules.__browserify_process) {
             process = require.modules.__browserify_process();
+            definedProcess = true;
         }
         
         var dirname = require._core[filename]
@@ -151,7 +154,14 @@ require.alias = function (from, to) {
         ;
         
         var require_ = function (file) {
-            return require(file, dirname);
+            var requiredModule = require(file, dirname);
+            var cached = require.cache[require.resolve(file, dirname)];
+
+            if (cached && cached.parent === null) {
+                cached.parent = module_;
+            }
+
+            return requiredModule;
         };
         require_.resolve = function (name) {
             return require.resolve(name, dirname);
@@ -159,7 +169,13 @@ require.alias = function (from, to) {
         require_.modules = require.modules;
         require_.define = require.define;
         require_.cache = require.cache;
-        var module_ = { exports : {} };
+        var module_ = {
+            id : filename,
+            filename: filename,
+            exports : {},
+            loaded : false,
+            parent: null
+        };
         
         require.modules[filename] = function () {
             require.cache[filename] = module_;
@@ -170,15 +186,17 @@ require.alias = function (from, to) {
                 module_.exports,
                 dirname,
                 filename,
-                process
+                process,
+                global
             );
+            module_.loaded = true;
             return module_.exports;
         };
     };
 })();
 
 
-require.define("path",function(require,module,exports,__dirname,__filename,process){function filter (xs, fn) {
+require.define("path",function(require,module,exports,__dirname,__filename,process,global){function filter (xs, fn) {
     var res = [];
     for (var i = 0; i < xs.length; i++) {
         if (fn(xs[i], i, xs)) res.push(xs[i]);
@@ -312,17 +330,24 @@ exports.basename = function(path, ext) {
 exports.extname = function(path) {
   return splitPathRe.exec(path)[3] || '';
 };
+
 });
 
-require.define("__browserify_process",function(require,module,exports,__dirname,__filename,process){var process = module.exports = {};
+require.define("__browserify_process",function(require,module,exports,__dirname,__filename,process,global){var process = module.exports = {};
 
 process.nextTick = (function () {
-    var queue = [];
+    var canSetImmediate = typeof window !== 'undefined'
+        && window.setImmediate;
     var canPost = typeof window !== 'undefined'
         && window.postMessage && window.addEventListener
     ;
-    
+
+    if (canSetImmediate) {
+        return function (f) { return window.setImmediate(f) };
+    }
+
     if (canPost) {
+        var queue = [];
         window.addEventListener('message', function (ev) {
             if (ev.source === window && ev.data === 'browserify-tick') {
                 ev.stopPropagation();
@@ -332,14 +357,15 @@ process.nextTick = (function () {
                 }
             }
         }, true);
-    }
-    
-    return function (fn) {
-        if (canPost) {
+
+        return function nextTick(fn) {
             queue.push(fn);
             window.postMessage('browserify-tick', '*');
-        }
-        else setTimeout(fn, 0);
+        };
+    }
+
+    return function nextTick(fn) {
+        setTimeout(fn, 0);
     };
 })();
 
@@ -362,9 +388,10 @@ process.binding = function (name) {
         cwd = path.resolve(dir, cwd);
     };
 })();
+
 });
 
-require.define("events",function(require,module,exports,__dirname,__filename,process){if (!process.EventEmitter) process.EventEmitter = function () {};
+require.define("events",function(require,module,exports,__dirname,__filename,process,global){if (!process.EventEmitter) process.EventEmitter = function () {};
 
 var EventEmitter = exports.EventEmitter = process.EventEmitter;
 var isArray = typeof Array.isArray === 'function'
@@ -373,6 +400,13 @@ var isArray = typeof Array.isArray === 'function'
         return Object.prototype.toString.call(xs) === '[object Array]'
     }
 ;
+function indexOf (xs, x) {
+    if (xs.indexOf) return xs.indexOf(x);
+    for (var i = 0; i < xs.length; i++) {
+        if (x === xs[i]) return i;
+    }
+    return -1;
+}
 
 // By default EventEmitters will print a warning if more than
 // 10 listeners are added to it. This is a useful default which
@@ -509,7 +543,7 @@ EventEmitter.prototype.removeListener = function(type, listener) {
   var list = this._events[type];
 
   if (isArray(list)) {
-    var i = list.indexOf(listener);
+    var i = indexOf(list, listener);
     if (i < 0) return this;
     list.splice(i, 1);
     if (list.length == 0)
@@ -535,9 +569,10 @@ EventEmitter.prototype.listeners = function(type) {
   }
   return this._events[type];
 };
+
 });
 
-require.define("/index.js",function(require,module,exports,__dirname,__filename,process){var EventEmitter = require('events').EventEmitter,
+require.define("/index.js",function(require,module,exports,__dirname,__filename,process,global){var EventEmitter = require('events').EventEmitter,
 
 //used for dispatching unhandledError messages
 globalEmitter = new EventEmitter();
@@ -553,15 +588,11 @@ var Chain = function(listeners) {
 		var args = Array.apply(null, arguments), orgArgs = arguments;
 
 		if(listeners.callback) {
-
 			listeners.callback.apply(this, args);
-
 		}
 
 		if(listeners.handle) {
-			
 			listeners.handle.apply(listeners, args);
-
 		} else {
 
 			//error should always be first args
@@ -569,14 +600,11 @@ var Chain = function(listeners) {
 
 			//on error
 			if(err) {
-
 				listeners.error.call(this, err);
-
 			} else
-			if(listeners.success) {
-				
-				listeners.success.apply(this, args);
 
+			if(listeners.success) {
+				listeners.success.apply(this, args);
 			}
 
 		}	
@@ -587,33 +615,34 @@ var Chain = function(listeners) {
 
 	//DEPRECATED
 	fn.done = function(fn) {
-
 		return fn.callback(fn);
-
 	}
 
 	fn.handle = function(value) {
-
 		return _copy({ handle: value });
-		
 	}
+
+	fn.vine = function() {
+		return fn.handle(function(resp) {
+			if(resp.errors) {
+				this.error(resp.errors);
+			} else {
+				this.success(resp.result);
+			}
+		});
+	}
+
 
 	fn.callback = function(value) {
-		
 		return _copy({ callback: value });
-
 	}
 
-	fn.success = function(value) {
-			
+	fn.success = fn.s = function(value) {
 		return _copy({ success: value });
-
 	}
 
-	fn.error = function(value) {
-
+	fn.error = fn.e = function(value) {
 		return _copy({ error: value });
-
 	}
 
 
@@ -624,7 +653,6 @@ var Chain = function(listeners) {
 
 			//no error callback? check of unhandled error is present, or throw
 			if(!globalEmitter.emit('unhandledError', err) && !listeners.callback) throw err;
-
 		}
 
 	}
@@ -651,9 +679,7 @@ var Chain = function(listeners) {
 
 
 module.exports = function(listeners) {
-
 	return Chain(listeners);
-
 }
 
 
@@ -683,6 +709,7 @@ if(typeof window != 'undefined') {
 	window.outcome = module.exports;
 
 }
+
 
 
 
