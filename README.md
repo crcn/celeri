@@ -173,7 +173,7 @@ var interval = setInterval(function()
 {
 	celeri.progress('Label: ', i++);
 	
-	if(i == 100) clearInterval(i);
+	if(i == 100) clearInterval(interval);
 }, 10);
 
 ```
