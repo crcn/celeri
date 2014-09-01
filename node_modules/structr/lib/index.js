@@ -634,8 +634,10 @@ Structr.extend = function () {
 
 		var value = that[propertyName];
 
+		if(value == undefined) continue;
+
 		//if the value is static, then tack it onto the constructor
-		if (value && value['static']) {
+		if (value['static']) {
 
 			that.__construct[propertyName] = value;
 			delete that[propertyName];
