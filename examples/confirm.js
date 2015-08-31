@@ -1,16 +1,6 @@
-var celery = require('../lib');
+var confirm = require("../").confirm;
 
-celery.confirm('Do you want to continue?f dsfsdf sf sfsd fsd fsf sf sf sf sfsd bfs jf sdbjfsdbsfdbkfsdbjkfsdbfsdbkjf b jkbfksjfbsk', function(yes)
-{
-    if(yes)
-    {
-        console.log("YES!".green);
-    }
-    else
-    {
-        console.log("NO!".red);
-    }
+
+confirm("Do you like cats? ").then(function(name) {
+  console.log("Your name is %s", name);
 });
-
-
-celery.open();

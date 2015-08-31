@@ -1,27 +1,33 @@
 {
-    "name": "celeri",
-    "description": "CLI lib",
-    "version": "0.3.4",
-    "author": "Craig Condon",
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/crcn/celeri.git"
-    },
-    "directories": {
-        "lib": "./lib"
-    },
-    "dependencies": {
-        "colors": "0.5.x",
-        "disposable": "0.0.x",
-        "outcome": "0.0.x",
-        "structr": "0.2.x",
-        "underscore": "1.2.x",
-        "tq": "0.0.x",
-        "crema": "0.1.x",
-        "beanpoll": "0.2.x",
-        "plugin": "0.3.x",
-        "keypress": "0.1.x",
-        "dsync": "0.0.x"
-    },
-    "main": "./lib/index.js"
+  "name": "celeri",
+  "version": "1.0.0",
+  "description": "![Alt command line](http://i.imgur.com/DA77U.png)",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crcn/celeri.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crcn/celeri/issues"
+  },
+  "homepage": "https://github.com/crcn/celeri#readme",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chalk": "^1.1.1",
+    "co": "^4.6.0",
+    "expect.js": "^0.3.1",
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-plumber": "^1.0.1",
+    "mocha": "^2.3.0",
+    "sinon": "^1.16.1"
+  },
+  "dependencies": {
+    "xtend": "^4.0.0"
+  }
 }
